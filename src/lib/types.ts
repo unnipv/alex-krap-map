@@ -32,6 +32,20 @@ export interface ConflictEvent {
     notes: string;
 }
 
+import { SanctionData } from "./data/opensanctions";
+
+export interface NewsArticle {
+    title: string;
+    description: string;
+    url: string;
+    image: string;
+    publishedAt: string;
+    source: {
+        name: string;
+        url: string;
+    };
+}
+
 export interface Article {
     title: string;
     url: string;
@@ -53,6 +67,7 @@ export interface Conflict {
     startDate: string; // Earliest event in our window
     latestEventDate: string; // Most recent event
     mediaAttentionScore: number; // Normalized 0-100
+    economicImpact: SanctionData; // Real sanctions mapping via OpenSanctions logic
     articles: Article[];
     events: ConflictEvent[];
     coordinates: [number, number]; // [lng, lat] for map centering (optional if we center on poly)

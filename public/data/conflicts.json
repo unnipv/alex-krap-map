@@ -499,7 +499,95 @@
         "actor2": "Civilians (Palestine)",
         "notes": "Around 6 September 2024 (as reported), Hamas gunmen shot dead a Palestinian in Gaza Strip (unspecified location coded to Gaza City)."
       }
-    ]
+    ],
+    "articles": [
+      {
+        "id": "ad8e75c9c3a4b6a9b7c4d1181f1e620e",
+        "title": "Churchill statue defaced with ‘Zionist war criminal’ graffiti",
+        "description": "Man, 38, arrested after memorial to former prime minister in Parliament Square spray-painted with ‘free Palestine’",
+        "content": "The statue of Winston Churchill in Parliament Square has been defaced with pro-Palestine graffiti.\nThe words “free Palestine”, “Zionist war criminal” and “Globalise the Intifada” were written across the statue of the former prime minister in Westmins... [5452 chars]",
+        "url": "https://www.telegraph.co.uk/news/2026/02/27/churchill-statue-defaced-with-zionist-war-criminal-graffiti/",
+        "image": "https://www.telegraph.co.uk/content/dam/news/2026/02/27/TELEMMGLPICT000466695153_17721915052770_trans_NvBQzQNjv4BqXNTeB5gro9ot_3zocZVbt76Xj2WECU5tGTp4vDMBGsY.jpeg?impolicy=OG-Standard",
+        "publishedAt": "2026-02-27T08:01:00Z",
+        "lang": "en",
+        "source": {
+          "id": "bff0cd3b8c64dceaada8841bea814f65",
+          "name": "The Telegraph",
+          "url": "https://www.telegraph.co.uk",
+          "country": "gb"
+        }
+      },
+      {
+        "id": "72500c3b3f22399666e2ca27ce8fce7e",
+        "title": "Man arrested after spraying ‘zionist war criminal’ on Churchill statue",
+        "description": "A MAN was arrested today after the statue of Winston Churchill in central London was sprayed with the words “zionist war criminal.”The Metropolitan Police said the 38-year-old man was arrested on suspicion of racially aggravated criminal damage.Other phrases, including “Stop the Genocide” and “Free Palestine,” were also sprayed in red paint on the bronze sculpture in Parliament Square.Further graffiti read “Never again is Now” and “Globalise the Intifada.”",
+        "content": "A MAN was arrested today after the statue of Winston Churchill in central London was sprayed with the words “zionist war criminal.”\nThe Metropolitan Police said the 38-year-old man was arrested on suspicion of racially aggravated criminal damage.\nOth... [1314 chars]",
+        "url": "https://morningstaronline.co.uk/article/man-arrested-after-spraying-zionist-war-criminal-churchill-statue",
+        "image": "https://morningstaronline.co.uk/sites/default/files/styles/wide/public/2026-02/PA-83657575_1.jpg.webp?itok=YEecAP9B",
+        "publishedAt": "2026-02-27T00:00:00Z",
+        "lang": "en",
+        "source": {
+          "id": "6e38967e862de6c07c77ef45d72183a4",
+          "name": "The Morning Star",
+          "url": "https://morningstaronline.co.uk",
+          "country": "gb"
+        }
+      },
+      {
+        "id": "c06f63b97c550193734cc8016800916c",
+        "title": "Palestine protester arrested after disrupting Google conference in Dublin due in court",
+        "description": "Man shouted ‘shame on Google’ as he ran on to stage at 3Arena in reference to company’s systems being used by Israeli military",
+        "content": "A Palestine solidarity protester was arrested after disrupting a Google event in Dublin on Thursday.\nThe man, aged in his 40s, ran on to the stage while speakers took part in the Engage conference at the 3Arena in Dublin city.\nFootage of the incident... [1536 chars]",
+        "url": "https://www.irishtimes.com/ireland/2026/02/26/palestine-protester-arrested-after-disrupting-google-conference-in-dublin-due-in-court/",
+        "image": "https://www.irishtimes.com/resizer/v2/LFT2MVKKKNGVDDC7JJENVVBX34.jpg?smart=true&auth=bcf73ac2bbfaf05bce2640ce3ab8a39b017314f8aacb373cf7536f7ce499cbe7&width=1200&height=630",
+        "publishedAt": "2026-02-26T15:59:45Z",
+        "lang": "en",
+        "source": {
+          "id": "dd1d806725f45e4403e75c1bb23b447a",
+          "name": "The Irish Times",
+          "url": "https://www.irishtimes.com",
+          "country": "ie"
+        }
+      },
+      {
+        "id": "ecd50d94406af0f6ec8d530eac0a4544",
+        "title": "Palestine conflict fuelling Derry divisions, warns Protestant community leader",
+        "description": "Increasing sectarian attacks due to polarisation on ‘identity and sovereignty’ issues",
+        "content": "Sectarianism in Derry is increasingly being expressed through the Israel/Palestine conflict, with some nationalist youths willing to attack Protestant communities over support for Israel, a Protestant community leader has said.\nSpeaking at the launch... [3877 chars]",
+        "url": "https://www.irishtimes.com/politics/2026/02/25/palestine-conflict-fuelling-derry-divisions-warns-protestant-community-leader/",
+        "image": "https://www.irishtimes.com/resizer/v2/OJR5HIRFLJM7NUUTLBD5HHI574.jpg?smart=true&auth=28b488146ff63d8c83df40bc869d466048e7ac69d641e90affd08b51bbf8d5c1&width=1200&height=630",
+        "publishedAt": "2026-02-25T19:51:53Z",
+        "lang": "en",
+        "source": {
+          "id": "dd1d806725f45e4403e75c1bb23b447a",
+          "name": "The Irish Times",
+          "url": "https://www.irishtimes.com",
+          "country": "ie"
+        }
+      },
+      {
+        "id": "3eb6f2422047e91b73950552aff78bfa",
+        "title": "What PM Modi said on Hamas attack and Palestine while addressing Israel’s Parliament",
+        "description": "Strongly condemning the Hamas attack on Israel on October 7, 2023, he offered condolences for all those who lost their lives. He said India shared the grief of families affected by the violence. The PM stated that the killing of civilians cannot be justified under any circumstances.",
+        "content": "Tel Aviv: On the first day of his two-day visit to Israel, Prime Minister Narendra Modi addressed the Knesset (Israeli parliament) on Wednesday in Jerusalem. He touched upon terrorism, regional peace and growing ties between the two countries.\nStrong... [2592 chars]",
+        "url": "https://zeenews.india.com/world/what-pm-modi-said-on-hamas-attack-and-palestine-while-addressing-israel-s-parliament-3021233.html",
+        "image": "https://english.cdn.zeenews.com/sites/default/files/2026/02/26/1911283-modi-israel-parliament.jpg",
+        "publishedAt": "2026-02-25T18:59:07Z",
+        "lang": "en",
+        "source": {
+          "id": "e743cde6ee986921721e83d3957862dc",
+          "name": "Zee News",
+          "url": "https://zeenews.india.com",
+          "country": "in"
+        }
+      }
+    ],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": true,
+      "travelBans": true,
+      "description": "Targeted Western sanctions against key militant organizations and affiliated financial networks."
+    }
   },
   {
     "id": "UKR",
@@ -1001,7 +1089,95 @@
         "actor2": "Military Forces of Ukraine (2019-)",
         "notes": "On 30 August 2024, Russian forces clashed with Ukrainian forces in Zhelanne Pershe, Donetsk. According to Ukrainian sources, 132 Russian soldiers were killed and 186 wounded on the Pokrovsk Front (cod"
       }
-    ]
+    ],
+    "articles": [
+      {
+        "id": "582d9c5b32b228bdad315b3743bd04dc",
+        "title": "If Putin stopped Russia's war in Ukraine he would fall, Estonian PM tells Euronews",
+        "description": "Estonian PM Kristen Michal told Euronews' Europe Today morning programme Putin cannot afford to end the war in Ukraine, urging the EU to unlock €90 billion in aid and invest more in defence.",
+        "content": "Estonian PM Kristen Michal told Euronews' flagship morning show Europe Today that Russian President Vladimir Putin cannot afford to end Moscow's war in Ukraine, comparing his grip on power to “riding a bike”.\nWhile Michal said he does not claim to un... [3252 chars]",
+        "url": "https://www.euronews.com/my-europe/2026/02/27/if-putin-stopped-russias-war-in-ukraine-he-would-fall-estonian-pm-tells-euronews",
+        "image": "https://images.euronews.com/articles/stories/09/66/54/05/1200x675_cmsv2_13392d9b-5fb7-530f-bd87-d4d06e3659fa-9665405.jpg",
+        "publishedAt": "2026-02-27T07:50:38Z",
+        "lang": "en",
+        "source": {
+          "id": "3d24c816061d69b2e23b8583aed9b447",
+          "name": "Euronews",
+          "url": "https://www.euronews.com",
+          "country": "fr"
+        }
+      },
+      {
+        "id": "03faa0fc0a1aa96ad33ceebe36388753",
+        "title": "Booming Arabian Tourism in Icy Moscow",
+        "description": "There's a surge in Arabian tourists visiting Moscow, driven by improved diplomacy and new travel arrangements. Despite geopolitical tensions, destinations around Moscow are popular among Gulf tourists, enjoying unique Russian winter experiences. Rising tourism is impacted by Ukraine's conflict, affecting travel logistics.",
+        "content": "In a striking display of cultural exchange, Moscow's frosty landscapes have become hot tourist spots for visitors from the Arabian Peninsula. With temperatures well below zero, adventurous tourists from Oman, the UAE, and Qatar experience the thrill ... [761 chars]",
+        "url": "https://www.devdiscourse.com/article/business/3819671-booming-arabian-tourism-in-icy-moscow",
+        "image": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/aiimagegallery/12_04_2025_14_17_16_8502827.png?width=920&format=jpeg",
+        "publishedAt": "2026-02-27T07:00:29Z",
+        "lang": "en",
+        "source": {
+          "id": "c6a01ba91c1a2bc3f53f4707110bfee5",
+          "name": "Devdiscourse",
+          "url": "https://www.devdiscourse.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "f1d128b09c1bd5151f586d757683c562",
+        "title": "US talks on rebuilding Ukraine held after latest air onslaught",
+        "description": "Ukrainian and US officials met in Geneva yesterday for talks on post-war reconstruction despite a deadlock in peace negotiations with Russia, which pounded infrastructure across Ukraine with drone and missile strikes overnight.",
+        "content": "Ukrainian President Volodymyr Zelensky said Russia had launched 420 drones and 39 missiles in another night of attacks on energy and other critical infrastructure.\nDozens of people were injured and damage was reported across eight regions, he said.\nT... [3852 chars]",
+        "url": "https://www.independent.ie/world-news/us-talks-on-rebuilding-ukraine-held-after-latest-air-onslaught/a1490629382.html",
+        "image": "https://focus.independent.ie/thumbor/XBwFcJiIHUekzwNj1c59rrEJ95k=/629x460/smart/prod-mh-ireland/0e98bb99-158f-4fb3-a05b-ec91b2be6cea/a337ec4e-fdf5-461c-935b-87bce84c0548/UKRAINE%20R%20%2848%29.jpg",
+        "publishedAt": "2026-02-27T05:30:00Z",
+        "lang": "en",
+        "source": {
+          "id": "ead461b236347a41a0e3561761126583",
+          "name": "Independent.ie",
+          "url": "https://www.independent.ie",
+          "country": "ie"
+        }
+      },
+      {
+        "id": "cdb50c15f82d2968b3885bb0435836ef",
+        "title": "‘A living, moving exhibition’: Ukraine Museum opens in Berlin air-raid bunker",
+        "description": "Exhibits pay homage to Ukrainians’ resilience and bring home the reality that war is going on in Europe",
+        "content": "Descending into the windowless basement of a second world war air-raid bunker built for civilians in central Berlin is arguably an eerie enough evocation of what it means to endure life in a conflict.\nBut in a modern twist, before they have even walk... [4707 chars]",
+        "url": "https://www.theguardian.com/world/2026/feb/27/ukraine-museum-opens-berlin-air-raid-bunker",
+        "image": "https://i.guim.co.uk/img/media/cb46b09275ee1346b0aee42ce23f837cf8ab26c9/581_0_4591_3673/master/4591.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=86b73d1a1d8c9d2c76486c81afd89cad",
+        "publishedAt": "2026-02-27T05:00:34Z",
+        "lang": "en",
+        "source": {
+          "id": "01558c024928d45cf320f6f75eede787",
+          "name": "The Guardian",
+          "url": "https://www.theguardian.com",
+          "country": "gb"
+        }
+      },
+      {
+        "id": "dae7d48088c9426a159ed5f622997f7d",
+        "title": "IMF Approves $8.1 Billion Loan for Ukraine Amid Ongoing War Against Russia",
+        "description": "The IMF has approved an $8.1 billion loan for Ukraine to support its economy amid the ongoing conflict with Russia. The loan is part of a $136.5 billion international support package. Ukrainian officials commit to reform efforts while facing economic challenges and planning for post-war recovery.",
+        "content": "The International Monetary Fund (IMF) has approved an $8.1 billion, four-year loan for Ukraine, releasing $1.5 billion immediately to ensure the government remains operational amid its ongoing war with Russia. This new arrangement is part of a $136.5... [1052 chars]",
+        "url": "https://www.devdiscourse.com/article/business/3819513-imf-approves-81-billion-loan-for-ukraine-amid-ongoing-war-against-russia",
+        "image": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/aiimagegallery/06_06_2025_08_52_53_6633533.png?width=920&format=jpeg",
+        "publishedAt": "2026-02-27T04:29:40Z",
+        "lang": "en",
+        "source": {
+          "id": "c6a01ba91c1a2bc3f53f4707110bfee5",
+          "name": "Devdiscourse",
+          "url": "https://www.devdiscourse.com",
+          "country": "in"
+        }
+      }
+    ],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false,
+      "description": "Major trade disruptions and supply chain volatility due to ongoing wartime infrastructure strain, though no international sanctions against the state itself."
+    }
   },
   {
     "id": "MMR",
@@ -1503,7 +1679,95 @@
         "actor2": "Military Forces of Myanmar (2021-)",
         "notes": "On 5 September 2024, in Let Pa Taung village of the Salingyi township (Yinmarbin district, Sagaing region), local People's Defense Forces continued to attack the Myanmar military troops stationed at t"
       }
-    ]
+    ],
+    "articles": [
+      {
+        "id": "656854e7d08816135ef808492c3d120f",
+        "title": "Myanmar military using festivals as propaganda to hide war zone",
+        "description": "As Myanmar's junta celebrates Chin National Day in an effort to project control, air strikes on civilians underscore a deepening civil war.",
+        "content": "In Myanmar's Chin State, one of the country's oldest tribal regions, February is typically marked by Chin National Day — a celebration of identity and self-governance.\nIt features traditional dances, woodwind instruments and ceremonial rifle fire.\nBu... [5932 chars]",
+        "url": "https://www.abc.net.au/news/2026-02-27/myanmar-festival-propaganda-hiding-war-amid-air-strikes/106382144",
+        "image": "https://live-production.wcms.abc-cdn.net.au/714d7f4f9dd63ce1fa7a321ded134127?impolicy=wcms_watermark_news&cropH=2813&cropW=5000&xPos=0&yPos=260&width=862&height=485&imformat=generic",
+        "publishedAt": "2026-02-26T18:44:34Z",
+        "lang": "en",
+        "source": {
+          "id": "7b4f42ae3a5b2e91e272ab26ccca6128",
+          "name": "ABC (Australian Broadcasting Corporation)",
+          "url": "https://www.abc.net.au",
+          "country": "au"
+        }
+      },
+      {
+        "id": "7d72998bc6a63e3a2439500b14589b80",
+        "title": "UNICEF alarmed over reports of deadly Myanmar air strikes on civilians",
+        "description": "Myanmar has been roiled by conflict that ignited after generals seized power in a 2021 coup. Read more at straitstimes.com.",
+        "content": "YANGON - The United Nations children's agency UNICEF has expressed alarm over reports of Myanmar military air strikes this week that a rebel group and local media said inflicted large civilian casualties, as a civil war rages around the country.\nPara... [2312 chars]",
+        "url": "https://www.straitstimes.com/asia/se-asia/unicef-alarmed-over-reports-of-deadly-myanmar-air-strikes-on-civilians",
+        "image": "https://cassette.sphdigital.com.sg/image/straitstimes/20f8c9272ebbea676dcaa7902e6844fdb6ad1b1e48b7fb806d10f82113e327bd",
+        "publishedAt": "2026-02-26T09:17:17Z",
+        "lang": "en",
+        "source": {
+          "id": "72bbcd9c095a3d51c97cdda7a97dba31",
+          "name": "The Straits Times",
+          "url": "https://www.straitstimes.com",
+          "country": "sg"
+        }
+      },
+      {
+        "id": "ec9831964c322813328e467641c9fb6c",
+        "title": "UNICEF alarmed over reports of deadly Myanmar air strikes on civilians",
+        "description": "Feb 26 - The United Nations children's agency UNICEF has expressed alarm over reports of Myanmar military air strikes this week that a rebel group and local media said inflicted large civilian casualties, as a civil war rages around the country. Read more at straitstimes.com.",
+        "content": "Feb 26 - The United Nations children's agency UNICEF has expressed alarm over reports of Myanmar military air strikes this week that a rebel group and local media said inflicted large civilian casualties, as a civil war rages around the country.\nPara... [2328 chars]",
+        "url": "https://www.straitstimes.com/asia/unicef-alarmed-over-reports-of-deadly-myanmar-air-strikes-on-civilians",
+        "image": "https://cassette.sphdigital.com.sg/image/straitstimes/a1c6c0831c7e2c0968e46225bbeb5ecad051159eb874fa6387ec34c1ae2705ee",
+        "publishedAt": "2026-02-26T09:17:17Z",
+        "lang": "en",
+        "source": {
+          "id": "72bbcd9c095a3d51c97cdda7a97dba31",
+          "name": "The Straits Times",
+          "url": "https://www.straitstimes.com",
+          "country": "sg"
+        }
+      },
+      {
+        "id": "e29f5885f2fa064ad6a72e0c9a939748",
+        "title": "UNICEF alarmed over reports of deadly Myanmar air strikes on civilians",
+        "description": "The United Nations children's agency UNICEF has expressed alarm over reports of Myanmar military air strikes this week that a rebel group and local media said inflicted large civilian casualties, as a civil war rages around the country.",
+        "content": "Feb 26 (Reuters) - The United Nations children's agency UNICEF has expressed alarm over reports of Myanmar military air strikes this week that a rebel group and local media said inflicted large civilian casualties, as a civil war rages around the cou... [2422 chars]",
+        "url": "https://www.reuters.com/world/asia-pacific/unicef-alarmed-over-reports-deadly-myanmar-air-strikes-civilians-2026-02-26/",
+        "image": "https://www.reuters.com/resizer/v2/466BJJQ7PVGY5O53NZ3KL65MHM.png?auth=b9c3bf166c40a6778eb5672993fde7c30a15f48329026674eff92afd8da1d0ca&height=1005&width=1920&quality=80&smart=true",
+        "publishedAt": "2026-02-26T09:13:01Z",
+        "lang": "en",
+        "source": {
+          "id": "da5c26287bdd02563a2c32b55cb12051",
+          "name": "Reuters",
+          "url": "https://www.reuters.com",
+          "country": "us"
+        }
+      },
+      {
+        "id": "8bf11513dbe798e9621757c3f62c9d73",
+        "title": "Military government air strikes kill 17 in western Myanmar state",
+        "description": "Women and children among those killed in air strikes on a village market in Rakhine.",
+        "content": "A military air strike by the Myanmar military in Rakhine state has killed at least 17 people and injured 14 others, local media reported, in the latest civil war carnage weeks after a military-backed governing party election win was dismissed as a “s... [2086 chars]",
+        "url": "https://www.aljazeera.com/news/2026/2/25/military-government-air-strikes-kill-17-in-western-myanmar-state",
+        "image": "https://www.aljazeera.com/wp-content/uploads/2026/02/WEB-MAP-RAKHINE-MYANMAR-1772019361.jpg?resize=1200%2C675",
+        "publishedAt": "2026-02-25T12:00:55Z",
+        "lang": "en",
+        "source": {
+          "id": "8ed6c6b6dec4f35a4963354fb78b9754",
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com",
+          "country": "qa"
+        }
+      }
+    ],
+    "economicImpact": {
+      "armsEmbargo": true,
+      "financialSanctions": true,
+      "travelBans": true,
+      "description": "Targeted sanctions against the military junta and military-owned enterprises."
+    }
   },
   {
     "id": "BRA",
@@ -2005,7 +2269,94 @@
         "actor2": "PCC: First Capital Command",
         "notes": "On 6 September 2024, in Aracatuba (Sao Paulo), military police exchanged fire with PCC members. One suspect was shot and killed. 1 fatality."
       }
-    ]
+    ],
+    "articles": [
+      {
+        "id": "87c5020b1ebcfb514d8267b3fc88b864",
+        "title": "The Secret Agent Review",
+        "description": "A haunting political drama set in 1977 Brazil, Kleber Mendonça Filho’s Cannes-winning Secret Agent explores memory, identity and survival under a ruthless military dictatorship.",
+        "content": "Going against the ideologies of authoritative regimes, dictatorships and fascistic rulers and living under a disguise which yet again opens up a door from the darkest chapters of their life that lurks back to haunt them in the present seems to be a c... [7229 chars]",
+        "url": "https://www.deccanchronicle.com/entertainment/the-secret-agent-review-1940067",
+        "image": "https://www.deccanchronicle.com/h-upload/2026/02/26/2015556-maxresdefault.jpg",
+        "publishedAt": "2026-02-26T10:21:39Z",
+        "lang": "en",
+        "source": {
+          "id": "214d496d625fc657723cf4da80cff8ce",
+          "name": "Deccan Chronicle",
+          "url": "https://www.deccanchronicle.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "62c06c7f2953f62cc0dd4cef7d65189c",
+        "title": "Brazil’s Supreme Court imposes steep sentences for Marielle Franco murder",
+        "description": "The shooting of Franco, an activist, raised questions about political violence and corruption in Brazil’s government.",
+        "content": "A panel on Brazil’s Supreme Court has ruled to convict five men accused of plotting the 2018 assassination of a human rights leader-turned politician Marielle Franco and her driver, Anderson Gomes.\nThe justices on the panel were unanimous in Wednesda... [3726 chars]",
+        "url": "https://www.aljazeera.com/news/2026/2/26/brazils-supreme-court-imposes-steep-sentences-for-marielle-franco-murder",
+        "image": "https://www.aljazeera.com/wp-content/uploads/2026/02/AP26055547967341-1772040407.jpg?resize=1920%2C1440",
+        "publishedAt": "2026-02-26T01:37:11Z",
+        "lang": "en",
+        "source": {
+          "id": "8ed6c6b6dec4f35a4963354fb78b9754",
+          "name": "Al Jazeera",
+          "url": "https://www.aljazeera.com",
+          "country": "qa"
+        }
+      },
+      {
+        "id": "6064cf5a294e92f858196b5739d75953",
+        "title": "Brazil’s Supreme Court Convicts Four Men in Murder of Marielle Franco",
+        "description": "Two politicians and two former police officers were found guilty in the assassination of a rival, Marielle Franco, a Rio de Janeiro city councilwoman who fought corruption and violence.",
+        "content": "Four men, including two politicians, were found guilty on Wednesday in the assassination of Marielle Franco, a Black, gay, feminist councilwoman in Rio de Janeiro who achieved global renown for fighting corruption and systemic racism and whose 2018 k... [1640 chars]",
+        "url": "https://www.nytimes.com/2026/02/25/world/americas/brazil-supreme-court-verdict-marielle-franco-murder.html",
+        "image": "https://static01.nyt.com/images/2026/02/25/multimedia/25-brazil-killing-verdict-cfwg/25-brazil-killing-verdict-cfwg-facebookJumbo.jpg",
+        "publishedAt": "2026-02-25T19:16:53Z",
+        "lang": "en",
+        "source": {
+          "id": "e553cce06d349ac1f7fbb7618a979256",
+          "name": "The New York Times",
+          "url": "https://www.nytimes.com",
+          "country": "us"
+        }
+      },
+      {
+        "id": "18dedf1a71d0fc3108e1dfff1f1f88a1",
+        "title": "51 Nations, Including India, Abstain in UN Vote on Ukraine Peace Proposal",
+        "description": "India has once again adopted a neutral stance on the peace resolution brought before the United Nations General Assembly on the completion of 4 years of the Russia-Ukraine war. Learn why India, along with China, Brazil, and 51 other countries, abstained from voting on this resolution presented by Ukraine, and what India's diplomatic strategy is.",
+        "content": "India has once again adopted a neutral stance on the peace resolution brought before the United Nations General Assembly on the completion of 4 years of the Russia-Ukraine war. Learn why India, along with China, Brazil, and 51 other countries, abstai... [1995 chars]",
+        "url": "https://www.patrika.com/en/world-news/un-votes-on-ukraine-peace-proposal-india-china-brazil-among-51-abstaining-nations-as-the-russia-ukraine-war-enters-its-fourth-year-india-has-once-again-adopted-a-neutral-stan-20379682",
+        "image": "https://cms.patrika.com/wp-content/uploads/2026/02/united-nations.webp",
+        "publishedAt": "2026-02-25T03:29:39Z",
+        "lang": "en",
+        "source": {
+          "id": "9a1d5b164276d1c4f3394dd496e931e0",
+          "name": "Patrika News",
+          "url": "https://www.patrika.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "2149baa7e8e76bcf1a7a5f6d24c8df62",
+        "title": "Devastating Floods Hit Southeastern Brazil: A Humanitarian Crisis Unfolds",
+        "description": "Severe floods in southeastern Brazil's Minas Gerais state have claimed at least 25 lives and left dozens missing, prompting mass evacuations. Emergency teams are working tirelessly amid warnings of more rain. Brazilian President Luiz Inacio Lula da Silva assures affected populations of rapid assistance and security force mobilization.",
+        "content": "In southeastern Brazil, the state of Minas Gerais is grappling with severe flooding that has resulted in at least 25 fatalities and numerous disappearances. The floods, which began on Monday in cities like Juiz de Fora and Uba, have forced over 440 p... [636 chars]",
+        "url": "https://www.devdiscourse.com/article/science-environment/3816577-devastating-floods-hit-southeastern-brazil-a-humanitarian-crisis-unfolds",
+        "image": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/aiimagegallery/14_08_2025_05_49_17_7114106.png?width=920&format=jpeg",
+        "publishedAt": "2026-02-24T20:24:09Z",
+        "lang": "en",
+        "source": {
+          "id": "c6a01ba91c1a2bc3f53f4707110bfee5",
+          "name": "Devdiscourse",
+          "url": "https://www.devdiscourse.com",
+          "country": "in"
+        }
+      }
+    ],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "SDN",
@@ -2507,7 +2858,95 @@
         "actor2": "Rapid Support Forces",
         "notes": "On 6 September 2024, SAF artillery shelling targeted RSF in an unspecified location in Sennar (location coded to Sennar, Sennar, Sennar). Casualties unknown"
       }
-    ]
+    ],
+    "articles": [
+      {
+        "id": "cb30c53ba190536ceecd33cf545a1e49",
+        "title": "Sudan War: UN Expert Praises Civilians Delivering Lifesaving Aid",
+        "description": "Sudan’s war has forced millions from their homes, creating one of the world’s largest displacement crises.",
+        "content": "As Sudan’s conflict deepens, a United Nations independent expert has warned of catastrophic humanitarian consequences while praising local volunteer networks risking their lives to keep millions alive.\nCecilia Bailliet, the UN Independent Expert on i... [3423 chars]",
+        "url": "https://www.devdiscourse.com/article/other/3819557-sudan-war-un-expert-praises-civilians-delivering-lifesaving-aid",
+        "image": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/devnews/24_05_2025_11_55_52_4956594.png?width=920&format=jpeg",
+        "publishedAt": "2026-02-27T06:36:26Z",
+        "lang": "en",
+        "source": {
+          "id": "c6a01ba91c1a2bc3f53f4707110bfee5",
+          "name": "Devdiscourse",
+          "url": "https://www.devdiscourse.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "2669796cbfc7a3835af3bb3539e50675",
+        "title": "More than 100 charity workers killed in Sudan since start of civil war",
+        "description": "The UN says it's unclear whether charity staff are targeted because of their work or their perceived affiliation with one of the war’s factions.",
+        "content": "As the humanitarian crisis in Sudan continues to grow, its being reported that over 100 charity kitchen workers have been killed in the ongoing conflict.\nThat’s according to workers who spoke with journalists from the Associated Press and the Aid Wor... [2574 chars]",
+        "url": "https://www.africanews.com/2026/02/27/more-than-100-charity-workers-killed-in-sudan-since-start-of-civil-war/",
+        "image": "https://images.euronews.com/articles/stories/09/66/83/04/1024x538_cmsv2_f00f76f9-33e1-5639-bbc2-213bc492823a-9668304.jpg",
+        "publishedAt": "2026-02-27T05:32:29Z",
+        "lang": "en",
+        "source": {
+          "id": "4ee8a93f92a1be4ced3de6f96b13bcca",
+          "name": "Africanews",
+          "url": "https://www.africanews.com",
+          "country": "fr"
+        }
+      },
+      {
+        "id": "b94815f95771aa89550d91e056357a31",
+        "title": "Charity kitchen workers in Sudan another casualty of war",
+        "description": "Charity kitchens are a lifeline in Sudan after nearly three years of war but the community-led public kitchens have been targeted and some of their workers abducted, robbed, beaten or killed.",
+        "content": "CAIRO (AP) — Enas Arbab fled Sudan’s western region of Darfur after her hometown fell to Sudanese paramilitary forces, taking only her year-old son with her and the memory of her father, who was killed, she said, simply for working at a charity kitch... [6368 chars]",
+        "url": "https://apnews.com/article/sudan-darfur-elfasher-rapid-support-forces-charity-kitchen-42f07aaf3328f6c801bd0840579c1cd8",
+        "image": "https://dims.apnews.com/dims4/default/baacbb4/2147483647/strip/true/crop/4982x3320+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F74%2F1c%2Ffc7eaad8f9d6147967f5d4fe8fc4%2F4108f097ef3247849dda0ac0092d7fc2",
+        "publishedAt": "2026-02-27T05:09:14Z",
+        "lang": "en",
+        "source": {
+          "id": "20ca9773b4c0563e26b4c2863bdf8c19",
+          "name": "The Associated Press",
+          "url": "https://apnews.com",
+          "country": "us"
+        }
+      },
+      {
+        "id": "fafbdc4730ce4fd97b23644208bfeb67",
+        "title": "Civilian death toll in Sudan war more than doubled in 2025, U.N. says",
+        "description": "Since April 2023, Sudan has been embroiled in a conflict between the army and the Rapid Support Forces that has killed tens of thousands and displaced 11 million people.",
+        "content": "Killings of civilians in Sudan's war more than doubled in 2025 compared with the previous year, the United Nations rights chief said Thursday, warning that thousands more dead are unidentified or remain missing.\nSince April 2023, Sudan has been engul... [442 chars]",
+        "url": "https://www.japantimes.co.jp/news/2026/02/27/world/sudan-civilian-death-double/",
+        "image": "https://www.japantimes.co.jp/japantimes/uploads/images/2026/02/27/526021.jpg?v=3.1",
+        "publishedAt": "2026-02-27T02:08:47Z",
+        "lang": "en",
+        "source": {
+          "id": "4b9101ef61d45607a32072a7504f5fb0",
+          "name": "The Japan Times ",
+          "url": "https://www.japantimes.co.jp",
+          "country": "jp"
+        }
+      },
+      {
+        "id": "aead7de9f5dce031b672e7e2b2ff398b",
+        "title": "Sudan's Ongoing Conflict: Unyielding Violence in Darfur",
+        "description": "Sudanese paramilitary forces have launched deadly attacks on Misteriha in Darfur, displacing over 3,000 people. The violence, linked to tribal and military tensions, has claimed thousands of lives. Aid organizations call for urgent assistance as the war, nearing its third year, continues to devastate the region.",
+        "content": "Deadly attacks by Sudanese paramilitary forces in Darfur's Misteriha have displaced over 3,000 people recently, according to the Sudan Doctors Network. The town, a stronghold of tribal leader Musa Hilal, saw at least 28 killed and 39 wounded in the l... [530 chars]",
+        "url": "https://www.devdiscourse.com/article/law-order/3819319-sudans-ongoing-conflict-unyielding-violence-in-darfur",
+        "image": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/imagegallery/27_05_2019_11_51_19_0419949.jpg?width=920&format=jpeg",
+        "publishedAt": "2026-02-26T19:15:55Z",
+        "lang": "en",
+        "source": {
+          "id": "c6a01ba91c1a2bc3f53f4707110bfee5",
+          "name": "Devdiscourse",
+          "url": "https://www.devdiscourse.com",
+          "country": "in"
+        }
+      }
+    ],
+    "economicImpact": {
+      "armsEmbargo": true,
+      "financialSanctions": false,
+      "travelBans": true,
+      "description": "Targeted sanctions against key belligerent leaders and related business networks."
+    }
   },
   {
     "id": "MEX",
@@ -3009,7 +3448,94 @@
         "actor2": "Civilians (Mexico)",
         "notes": "On 6 September 2024, in Fresnillo, Zacatecas, armed individuals shot and killed a ministerial police officer likely off-duty (since he was driving his personal car) on Constitucion street by Guanajuat"
       }
-    ]
+    ],
+    "articles": [
+      {
+        "id": "97d998cffba3e0af22c624b27c2b4e59",
+        "title": "US military used laser to take down Border Protection drone, lawmakers say",
+        "description": "The U.S. military used a laser Thursday to shoot down a “seemingly threatening” drone flying near the U.S.-Mexico border. It turned out the drone belonged to…",
+        "content": "The U.S. military used a laser Thursday to shoot down a “seemingly threatening” drone flying near the U.S.-Mexico border. It turned out the drone belonged to Customs and Border Protection, lawmakers said.\nThe case of mistaken identity prompted the Fe... [5311 chars]",
+        "url": "https://wtop.com/national/2026/02/lawmakers-say-us-military-used-laser-to-take-down-border-protection-drone/",
+        "image": "https://wtop.com/wp-content/uploads/2026/02/El_Paso_Flights_Grounded_09185-scaled.jpg",
+        "publishedAt": "2026-02-27T06:54:11Z",
+        "lang": "en",
+        "source": {
+          "id": "f0fc90dfc09bbf76d69b287e66a5d09d",
+          "name": "WTOP",
+          "url": "https://wtop.com",
+          "country": "us"
+        }
+      },
+      {
+        "id": "da513a67979806d015108ec333fcdc29",
+        "title": "FIFA president says he has full confidence in Mexico as World Cup host despite cartel violence",
+        "description": "Mexico is set to host 13 World Cup matches, four of them in the western city of Guadalajara, in the Jalisco state, the central hub for the Jalisco cartel.",
+        "content": "MEXICO CITY: FIFA president Gianni Infantino said Thursday he spoke with Mexican President Claudia Sheinbaum and that he has \"full confidence\" in Mexico as a host country for this year's World Cup soccer tournament despite violent incidents following... [1899 chars]",
+        "url": "https://www.newindianexpress.com/sport/football/2026/Feb/27/fifa-president-says-he-has-full-confidence-in-mexico-as-world-cup-host-despite-cartel-violence-2",
+        "image": "https://media.newindianexpress.com/newindianexpress%2F2026-02-27%2Fttr27a2v%2FAP26056791262405.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+        "publishedAt": "2026-02-27T06:19:32Z",
+        "lang": "en",
+        "source": {
+          "id": "448094ed3f9461bb87a99a218cdaecfe",
+          "name": "The New Indian Express",
+          "url": "https://www.newindianexpress.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "354f66a55006c6b02f3cd81f3ad6e9c1",
+        "title": "FIFA could move World Cup from Mexico using little-known contract clause",
+        "description": "Concerns have been raised amid widespread cartel-related violence in the North American nation",
+        "content": "FIFA do have the power to move 2026 FIFA World Cup matches away from Mexico amid concerns related to ongoing cartel-related violence in the country ahead of the tournament.\nMexico, alongside the US and Canada, will host the 2026 tournament, with the ... [2809 chars]",
+        "url": "https://www.sportbible.com/football/football-news/fifa-world-cup/mexico-cartel-violence-contract-clause-venues-509384-20260226",
+        "image": "https://resizer.ladbiblegroup.com/ogimage/v3/assets/blta90d05ad41a54a71/blt7c085eeafcccb40a/69a04fdc1e0d2f0008eca072/GettyImages-2261155830.jpg",
+        "publishedAt": "2026-02-27T06:00:00Z",
+        "lang": "en",
+        "source": {
+          "id": "edd1456bab98853885c1ec33fdf1b15d",
+          "name": "SPORTbible",
+          "url": "https://www.sportbible.com",
+          "country": "gb"
+        }
+      },
+      {
+        "id": "c181fa4d4f0eecc1f31a0bde32b3ec17",
+        "title": "FIFA World Cup 2026: Gianni Infantino he has full confidence in Mexico as host despite cartel violence",
+        "description": "FIFA president expresses confidence in Mexico as World Cup host amid cartel violence, assuring safety for upcoming matches.",
+        "content": "FIFA president Gianni Infantino said on Thursday (February 26, 2026) he spoke with Mexican President Claudia Sheinbaum and that he has “full confidence” in Mexico as a host country for this year's World Cup soccer tournament despite violent incidents... [1945 chars]",
+        "url": "https://www.thehindu.com/sport/football/fifa-world-cup-2026-gianni-infantino-he-has-full-confidence-in-mexico-as-host-despite-cartel-violence/article70682825.ece",
+        "image": "https://th-i.thgim.com/public/incoming/7mcyrr/article70682829.ece/alternates/LANDSCAPE_1200/2026-02-25T021934Z_1028826855_RC2HSJAMO97Z_RTRMADP_3_WORLDCUP-MEXICO-VIOLENCE.JPG",
+        "publishedAt": "2026-02-27T05:58:34Z",
+        "lang": "en",
+        "source": {
+          "id": "b33a42ef1c098421f66aad47a76d6a3c",
+          "name": "The Hindu",
+          "url": "https://www.thehindu.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "4d22a20eb048e386e07146ba84a4201e",
+        "title": "FIFA Chief Backs Mexico Amid Turbulence Leading Up to World Cup",
+        "description": "FIFA President Gianni Infantino expressed confidence in Mexico hosting World Cup matches despite recent violence linked to the death of a drug cartel leader. Mexican President Claudia Sheinbaum reassured security measures are in place. Some events have been canceled due to safety concerns, but preparations continue.",
+        "content": "FIFA President Gianni Infantino affirmed his confidence in Mexico hosting World Cup matches, despite recent turmoil following the demise of a prominent cartel leader. His statement came after a conversation with Mexican President Claudia Sheinbaum, w... [701 chars]",
+        "url": "https://www.devdiscourse.com/article/sports-games/3819567-fifa-chief-backs-mexico-amid-turbulence-leading-up-to-world-cup",
+        "image": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/devnews/08_04_2025_23_54_55_9107297.jpg?width=920&format=jpeg",
+        "publishedAt": "2026-02-27T05:30:00Z",
+        "lang": "en",
+        "source": {
+          "id": "c6a01ba91c1a2bc3f53f4707110bfee5",
+          "name": "Devdiscourse",
+          "url": "https://www.devdiscourse.com",
+          "country": "in"
+        }
+      }
+    ],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "NGA",
@@ -3511,7 +4037,94 @@
         "actor2": "Private Security Forces (Nigeria)",
         "notes": "On 4 September 2024, an unidentified armed group shot and injured a security guard while attacking the APP secretariat in Port Harcourt (Port Harcourt, Rivers). The attack came about three weeks after"
       }
-    ]
+    ],
+    "articles": [
+      {
+        "id": "c83f1027532dcc6c4bd8e9eb9b1b17de",
+        "title": "Escalating Jihadist Threat: Militant Expansion in West Africa's Borderlands",
+        "description": "Militant attacks have surged in border areas of Benin, Niger, and Nigeria, with incidents increasing by 80% and fatalities surpassing 1,000, according to ACLED. Jihadist groups are exploiting regional weaknesses, particularly in Benin and Niger. In Nigeria, U.S. military support coincides with rising extremist activities.",
+        "content": "Islamic militant groups are intensifying attacks and expanding their influence in the border areas of Benin, Niger, and Nigeria, a crisis monitoring group reported Thursday.\nFrom 2024 to 2025, violent incidents involving jihadists surged by 80%, with... [1134 chars]",
+        "url": "https://www.devdiscourse.com/article/law-order/3819110-escalating-jihadist-threat-militant-expansion-in-west-africas-borderlands",
+        "image": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/imagegallery/03_03_2020_19_06_09_904154.jpg?width=920&format=jpeg",
+        "publishedAt": "2026-02-26T16:07:44Z",
+        "lang": "en",
+        "source": {
+          "id": "c6a01ba91c1a2bc3f53f4707110bfee5",
+          "name": "Devdiscourse",
+          "url": "https://www.devdiscourse.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "bde905d7ef9734479afe6deed9dfe4e4",
+        "title": "Monitoring group says Islamic militants boost attacks in Benin, Niger and Nigeria",
+        "description": "A new report says the Islamic militant groups are ramping up cross-border violence and tightening their grip in parts of Benin, Niger, and Nigeria.",
+        "content": "DAKAR, Senegal (AP) — Islamic militant groups have stepped up attacks and deepened their presence in border areas of Benin, Niger and Nigeria in West Africa over the past year, a crisis monitoring group said Thursday.\nFrom 2024 to 2025, the number of... [2382 chars]",
+        "url": "https://apnews.com/article/extremist-violence-acled-98115794964a9c93019eb0ce304bf22a",
+        "image": "https://dims.apnews.com/dims4/default/33b8119/2147483647/strip/true/crop/2970x1979+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F54%2F82%2F97761fade8707131c0211d6105f9%2F49270f70d9744b9bbc41a39f7ea55f09",
+        "publishedAt": "2026-02-26T15:50:32Z",
+        "lang": "en",
+        "source": {
+          "id": "20ca9773b4c0563e26b4c2863bdf8c19",
+          "name": "The Associated Press",
+          "url": "https://apnews.com",
+          "country": "us"
+        }
+      },
+      {
+        "id": "a6cb48b60fe61503b0f3910ec6de2cb6",
+        "title": "Jihadist group militants increase attacks in Nigeria-Niger-Benin borderlands",
+        "description": "New data from the Armed Conflict Location & Event Data (ACLED) project showed that various jihadist groups, such as Al-Qaida and JNIM have recently expanded their activity in the border region between Nigeria, Niger and Benin, turning the zone into a flashpoint of violence.",
+        "content": "New data from the Armed Conflict Location & Event Data (ACLED) project showed that various jihadist groups, such as Al-Qaida and JNIM have recently expanded their activity in the border region between Nigeria, Niger and Benin, turning the zone into a... [1549 chars]",
+        "url": "https://www.africanews.com/2026/02/26/jihadist-group-militants-increase-attacks-in-nigeria-niger-benin-borderlands/",
+        "image": "https://images.euronews.com/articles/stories/09/66/65/49/1024x538_cmsv2_428b9082-6bbf-5cf3-92cd-06fdcc1a1720-9666549.jpg",
+        "publishedAt": "2026-02-26T09:50:39Z",
+        "lang": "en",
+        "source": {
+          "id": "4ee8a93f92a1be4ced3de6f96b13bcca",
+          "name": "Africanews",
+          "url": "https://www.africanews.com",
+          "country": "fr"
+        }
+      },
+      {
+        "id": "caac40ab17fbcbe295338a03a0ae9346",
+        "title": "Pentagon To Send 200 Troops to Nigeria",
+        "description": "Discover the details behind the US troop deployment to Nigeria as 200 troops join efforts to strengthen military capabilities.",
+        "content": "The troops will augment a “small team” of US forces that have already deployed to the country\nThe Pentagon is sending 200 troops to Nigeria in the coming weeks to train the country’s military to fight Islamist militants, US officials told media outle... [1543 chars]",
+        "url": "https://www.activistpost.com/pentagon-to-send-200-troops-to-nigeria/",
+        "image": "https://www.activistpost.com/wp-content/uploads/2026/02/0_DtBKRWKCxAFwPX-c.jpg",
+        "publishedAt": "2026-02-26T01:00:00Z",
+        "lang": "en",
+        "source": {
+          "id": "435d508bebcc8689d5c7711d44865b80",
+          "name": "Activist Post",
+          "url": "https://www.activistpost.com",
+          "country": "us"
+        }
+      },
+      {
+        "id": "df41f785f58091a1c4f9933a59053faf",
+        "title": "Islamist militant attacks on Niger, Benin and Nigeria border zone soaring, research shows",
+        "description": "LAGOS, Feb 26 - Militants linked to al Qaeda and Islamic State are rapidly increasing their attacks on the borderlands between Niger, Benin and Nigeria, turning remote transit corridors into active conflict zones, according to a crisis monitoring group. Read more at straitstimes.com.",
+        "content": "LAGOS, Feb 26 - Militants linked to al Qaeda and Islamic State are rapidly increasing their attacks on the borderlands between Niger, Benin and Nigeria, turning remote transit corridors into active conflict zones, according to a crisis monitoring gro... [2528 chars]",
+        "url": "https://www.straitstimes.com/world/islamist-militant-attacks-on-niger-benin-and-nigeria-border-zone-soaring-research-shows",
+        "image": "https://cassette.sphdigital.com.sg/image/straitstimes/a1c6c0831c7e2c0968e46225bbeb5ecad051159eb874fa6387ec34c1ae2705ee",
+        "publishedAt": "2026-02-26T00:07:14Z",
+        "lang": "en",
+        "source": {
+          "id": "72bbcd9c095a3d51c97cdda7a97dba31",
+          "name": "The Straits Times",
+          "url": "https://www.straitstimes.com",
+          "country": "sg"
+        }
+      }
+    ],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "BFA",
@@ -4013,7 +4626,94 @@
         "actor2": "Civilians (Burkina Faso)",
         "notes": "On 6 September 2024, an unidentified armed group killed two civilians in the town of Djibo (Djibo, Soum)."
       }
-    ]
+    ],
+    "articles": [
+      {
+        "id": "d668ae9fc0bae30416cdf9ec7a1a9781",
+        "title": "Burkina Faso Under Siege: Coordinated Militant Attacks Intensify",
+        "description": "Coordinated attacks by Islamist militants in Burkina Faso have led to the deaths of dozens of soldiers and civilians. The incidents highlight the growing capability of Jama'at Nusrat al-Islam wal-Muslimin to operate across extensive regions. Despite military promises to improve security, militant assaults have escalated.",
+        "content": "Over the past week, Islamist militants have orchestrated deadly attacks across multiple regions in Burkina Faso, resulting in the deaths of numerous soldiers and civilians, according to internal reports referenced by Reuters.\nThe militant group Jama'... [610 chars]",
+        "url": "https://www.devdiscourse.com/article/law-order/3810749-burkina-faso-under-siege-coordinated-militant-attacks-intensify",
+        "image": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/aiimagegallery/16_09_2025_20_50_48_4935001.png?width=920&format=jpeg",
+        "publishedAt": "2026-02-19T13:00:50Z",
+        "lang": "en",
+        "source": {
+          "id": "c6a01ba91c1a2bc3f53f4707110bfee5",
+          "name": "Devdiscourse",
+          "url": "https://www.devdiscourse.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "2d4ea37cbcac4af060b9cb76c5457580",
+        "title": "Burkina Faso has dissolved all political parties: why African coup leaders often turn on the people who supported them",
+        "description": "Once in power, military rulers have little incentive to share authority.",
+        "content": "The end of January 2026 effectively marked the end of party politics in Burkina Faso. On 29 January, Captain Ibrahim Traoré’s government formally dissolved all political parties, including those that had supported his September 2022 coup.\nParties had... [5436 chars]",
+        "url": "https://theconversation.com/burkina-faso-has-dissolved-all-political-parties-why-african-coup-leaders-often-turn-on-the-people-who-supported-them-275637",
+        "image": "https://images.theconversation.com/files/717626/original/file-20260211-56-zaxcxk.jpg?ixlib=rb-4.1.0&rect=0%2C273%2C3272%2C1636&q=45&auto=format&w=1356&h=668&fit=crop",
+        "publishedAt": "2026-02-16T00:00:00Z",
+        "lang": "en",
+        "source": {
+          "id": "78289f4d19c868d072c67a84199f13c5",
+          "name": "The Conversation",
+          "url": "https://theconversation.com",
+          "country": "au"
+        }
+      },
+      {
+        "id": "25caf6c7e72104333196c10100fc2b18",
+        "title": "Sahel nations unite through theater to confront security crisis",
+        "description": "In a display of cultural solidarity, Burkina Faso, Mali, and Niger have joined forces to produce a musical comedy titled A Sahel Vigil, using art as a space for dialogue, memory, and reflection on the region's pressing security challenges.",
+        "content": "In a display of cultural solidarity, Burkina Faso, Mali, and Niger have joined forces to produce a musical comedy titled A Sahel Vigil, using art as a space for dialogue, memory, and reflection on the region's pressing security challenges.\nOn stage i... [1781 chars]",
+        "url": "https://www.africanews.com/2026/02/02/three-sahel-nations-unite-through-theater-to-confront-security-crisis/",
+        "image": "https://images.euronews.com/articles/stories/09/63/51/72/1024x538_cmsv2_9e890f77-1c57-5048-8539-fc3820f56d7d-9635172.jpg",
+        "publishedAt": "2026-02-02T09:35:28Z",
+        "lang": "en",
+        "source": {
+          "id": "4ee8a93f92a1be4ced3de6f96b13bcca",
+          "name": "Africanews",
+          "url": "https://www.africanews.com",
+          "country": "fr"
+        }
+      },
+      {
+        "id": "9c9059c097ce0f227ddd4a0d8695d9c9",
+        "title": "Burkina Faso’s junta dissolves all political parties, saying they cause divisions",
+        "description": "Burkina Faso’s military junta has dissolved all the political parties in the country and scrapped the laws governing them, the latest in a series of antidemocratic measures since the government took power in a 2022 coup.",
+        "content": "Burkina Faso’s military junta has dissolved all the political parties in the country and scrapped the laws governing them, according to a government decree, the latest in a series of antidemocratic measures.\nThe dissolution of political parties and s... [1100 chars]",
+        "url": "https://www.latimes.com/world-nation/story/2026-01-31/burkina-fasos-junta-dissolves-all-political-parties-saying-they-cause-divisions",
+        "image": "https://ca-times.brightspotcdn.com/dims4/default/1ffac10/2147483647/strip/true/crop/5731x3009+0+406/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fab%2F72%2Fd00be50048109e435fbc45d42038%2Fc98aafb96a944fdf91aa2782283aa3b4.jpg",
+        "publishedAt": "2026-01-31T17:42:20Z",
+        "lang": "en",
+        "source": {
+          "id": "492abf277b7277432148b61b21ddc836",
+          "name": "Los Angeles Times",
+          "url": "https://www.latimes.com",
+          "country": "us"
+        }
+      },
+      {
+        "id": "516d0de4f8227a00c1ab71b0b28ef132",
+        "title": "Niger's junta leader accuses France, Benin and Ivory Coast of being behind airport attack",
+        "description": "Nigers military leader has accused the presidents of France, Benin and Ivory Coast of supporting armed groups that attacked an air force base in the capital, wounding four soldiers and damaging an aircraft. Under the military juntas, Niger, Mali and Burkina Faso have seen a surge in attacks and have become more vulnerable to the armed groups, experts say.",
+        "content": "Niger's military leader has accused the presidents of France, Benin and Ivory Coast of supporting armed groups that attacked an air force base in the capital, wounding four soldiers and damaging an aircraft. Niger's forces responded quickly to the as... [2946 chars]",
+        "url": "https://www.devdiscourse.com/article/law-order/3787314-nigers-junta-leader-accuses-france-benin-and-ivory-coast-of-being-behind-airport-attack",
+        "image": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/imagegallery/03_03_2020_19_07_32_0301512.jpg?width=920&format=jpeg",
+        "publishedAt": "2026-01-30T11:58:21Z",
+        "lang": "en",
+        "source": {
+          "id": "c6a01ba91c1a2bc3f53f4707110bfee5",
+          "name": "Devdiscourse",
+          "url": "https://www.devdiscourse.com",
+          "country": "in"
+        }
+      }
+    ],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "SOM",
@@ -4515,7 +5215,95 @@
         "actor2": "Al Shabaab",
         "notes": "On 5 September 2024, international forces (described as international friends, coded as Unidentified Military Forces), in coordination with government security forces (SNA), conducted an airstrike aga"
       }
-    ]
+    ],
+    "articles": [
+      {
+        "id": "6d82978f25da28d903d3d4e231809e1d",
+        "title": "third of Somalis to face hunger in March: UN officials",
+        "description": "One-third of Somalis to face hunger in March: UN officials - United Nations, Feb 26 Some 6.5 million people, or about a third of Somalia's population, will face crisis ... Get Latest News on International only on lokmattimes.com",
+        "content": "United Nations, Feb 26 Some 6.5 million people, or about a third of Somalia's population, will face crisis levels of hunger through March, an increase of 1.7 million since January, UN officials warned.\nSpeaking to reporters on Wednesday at the UN hea... [2069 chars]",
+        "url": "https://www.lokmattimes.com/international/one-third-of-somalis-to-face-hunger-in-march-un-officials/",
+        "image": "https://d3pc1xvrcw35tl.cloudfront.net/ln/feedImages/1200x900/202602263688042_202602.jpeg",
+        "publishedAt": "2026-02-26T03:33:53Z",
+        "lang": "en",
+        "source": {
+          "id": "f2ddccedc9e60d844e7a1045928cad48",
+          "name": "Lokmat Times",
+          "url": "https://www.lokmattimes.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "e7b02b94bcb1309c0747424c38f3f718",
+        "title": "Sophie continues her crusade to help victims of sexual and gender-based violence as she visits Somalia for the first time",
+        "description": "Sophie, 61, spent two days in the east African country at the request of the Foreign Office and first arrived into the capital city of Mogadishu on February 23.",
+        "content": "The Duchess of Edinburgh has continued her pledge to help victims of sexual and gender-based violence (SGBV) by undertaking a rare visit to Somalia.\nSophie, 61, spent two days in the east African country at the request of the Foreign, Commonwealth an... [5678 chars]",
+        "url": "https://www.dailymail.co.uk/news/royals/article-15590659/Sophie-Duchess-Edinburgh-visit-Somalia-gender-based-violence.html",
+        "image": "https://i.dailymail.co.uk/1s/2026/02/25/09/106659261-0-image-m-23_1772012882423.jpg",
+        "publishedAt": "2026-02-25T10:02:32Z",
+        "lang": "en",
+        "source": {
+          "id": "0c9364fff53c0e5a3450947d9a54e795",
+          "name": "Daily Mail Online",
+          "url": "https://www.dailymail.co.uk",
+          "country": "gb"
+        }
+      },
+      {
+        "id": "f6e869594fb198998185bac4b14f43a7",
+        "title": "Millions at risk of severe hunger in Somalia, says UN",
+        "description": "NEARLY 6.5 million people in Somalia are facing severe hunger as worsening drought, conflict and global aid cuts intensify the country’s humanitarian crisis, the federal government and United Nations agencies said on Tuesday.New data from the Integrated Food Security Phase Classification report shows that 6.5m people are projected to face crisis or worse levels of food insecurity by the end of March.",
+        "content": "NEARLY 6.5 million people in Somalia are facing severe hunger as worsening drought, conflict and global aid cuts intensify the country’s humanitarian crisis, the federal government and United Nations agencies said on Tuesday.\nNew data from the Integr... [1884 chars]",
+        "url": "https://morningstaronline.co.uk/article/millions-risk-severe-hunger-somalia-says-un",
+        "image": "https://morningstaronline.co.uk/sites/default/files/styles/wide/public/2026-02/Somalia.jpg.webp?itok=UGe-ok6B",
+        "publishedAt": "2026-02-25T00:00:00Z",
+        "lang": "en",
+        "source": {
+          "id": "6e38967e862de6c07c77ef45d72183a4",
+          "name": "The Morning Star",
+          "url": "https://morningstaronline.co.uk",
+          "country": "gb"
+        }
+      },
+      {
+        "id": "1e8c543066c600551828e8cfb1fe3e31",
+        "title": "U.N. data shows 6.5 million people in Somalia at risk of severe hunger from drought",
+        "description": "Nearly 6.5 million people in Somalia are facing severe hunger as worsening drought, conflict and global aid cuts intensify the country’s humanitarian crisis, the federal government and U.N. agencies said Tuesday. New data from the Integrated Food Security Phase Classification report shows that 6.5 million people are projected to face…",
+        "content": "Nearly 6.5 million people in Somalia are facing severe hunger as worsening drought, conflict and global aid cuts intensify the country’s humanitarian crisis, the federal government and U.N. agencies said Tuesday.\nNew data from the Integrated Food Sec... [2292 chars]",
+        "url": "https://japantoday.com/category/world/un-data-shows-6.5-million-people-at-risk-of-severe-hunger-from-drought",
+        "image": "https://media.japantoday.com/img/store/0c/23/626b7d6aa5c0c1153f23e1aaf825cdc1fa23/download/_w1700.jpeg",
+        "publishedAt": "2026-02-24T19:15:00Z",
+        "lang": "en",
+        "source": {
+          "id": "11d4381a1e8f7aca7628d0319a52a040",
+          "name": "Japan Today",
+          "url": "https://japantoday.com",
+          "country": "jp"
+        }
+      },
+      {
+        "id": "498ba7e7d533efbb912498556174643d",
+        "title": "Sophie visits Somalia to highlight threat of conflict-related sexual violence",
+        "description": "The duchess, at the request of the Foreign Office, spent two days in the east African country to raise awareness of the ongoing issue.",
+        "content": "Sophie travelled to a Somali village in Lower Shabelle to meet the wives of Somali soldiers who told her of the dangers they face from the Al-Shabaab terror group while their husbands are fighting to stabilise the country.\nThe official trip, which to... [2085 chars]",
+        "url": "https://www.bournemouthecho.co.uk/news/national/25884119.sophie-visits-somalia-highlight-threat-conflict-related-sexual-violence/",
+        "image": "https://www.bournemouthecho.co.uk/resources/images/20582667.jpg?type=og-image",
+        "publishedAt": "2026-02-24T18:39:21Z",
+        "lang": "en",
+        "source": {
+          "id": "ede8a6e3a0db780828c29284735fe691",
+          "name": "Daily Echo",
+          "url": "https://www.bournemouthecho.co.uk",
+          "country": "gb"
+        }
+      }
+    ],
+    "economicImpact": {
+      "armsEmbargo": true,
+      "financialSanctions": false,
+      "travelBans": true,
+      "description": "UN sanctions primarily focused on preventing arms flow to militant groups."
+    }
   },
   {
     "id": "ETH",
@@ -5017,7 +5805,94 @@
         "actor2": "Military Forces of Ethiopia (2018-)",
         "notes": "On 6 September 2024, Fano claimed to have clashed with ENDF in Ayimba (East Dembia, Central Gondar, Amhara). Casualties unknown."
       }
-    ]
+    ],
+    "articles": [
+      {
+        "id": "954928b1485d52487a4e0298b10cc18a",
+        "title": "Kenyan police arrest man accused of recruiting fighters for Russia's war in Ukraine",
+        "description": "Festus Omwamba was arrested on suspicion of human trafficking in the northern Kenyan town of Moyale, near the border with Ethiopia.",
+        "content": "Police in Kenya have arrested a man named in an alleged scheme that duped Kenyans with promises of skilled work in Russia, only for them to end up on the front lines of the fighting in Ukraine.\nFestus Omwamba was arrested on suspicion of human traffi... [3306 chars]",
+        "url": "https://www.latimes.com/world-nation/story/2026-02-26/kenyan-police-arrest-man-accused-of-recruiting-fighters-for-russias-war-in-ukraine",
+        "image": "https://ca-times.brightspotcdn.com/dims4/default/f065457/2147483647/strip/true/crop/4050x2126+0+287/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fa1%2Ff9%2F9080b2b7409d9a8f9abe7718fc5c%2Fffccc3339d144091b3e603607c4f1b3a.jpg",
+        "publishedAt": "2026-02-26T18:55:44Z",
+        "lang": "en",
+        "source": {
+          "id": "492abf277b7277432148b61b21ddc836",
+          "name": "Los Angeles Times",
+          "url": "https://www.latimes.com",
+          "country": "us"
+        }
+      },
+      {
+        "id": "4006d218c2029ac438c06484daac4c68",
+        "title": "Risk of Renewed War in Tigray",
+        "description": "With the possibility of renewed fighting in Ethiopia's Tigray region, reminders and recommendations for the world to take preventive action.",
+        "content": "A recent flare-up of fighting has put Ethiopia once again on the brink of war. The escalation in the northern Tigray region in January prompted the government to suspend flights to Tigray, and buses to Addis Ababa were packed with panicked passengers... [10109 chars]",
+        "url": "https://www.justsecurity.org/132370/tigray-ethiopia-action-prevent-war/",
+        "image": "https://www.justsecurity.org/wp-content/uploads/2026/02/GettyImages-2180991970.jpg",
+        "publishedAt": "2026-02-26T13:50:37Z",
+        "lang": "en",
+        "source": {
+          "id": "68a8e5d4f1b05e95fc9dc659d202d2f9",
+          "name": "Just Security",
+          "url": "https://www.justsecurity.org",
+          "country": "us"
+        }
+      },
+      {
+        "id": "64941f988796424117e708a706a73ed0",
+        "title": "Kenyan police arrest man accused of recruiting fighters for Russia's war in Ukraine",
+        "description": "Police in Kenya say they arrested a man named in the alleged scheme that duped Kenyans with promises of skilled work in Russia that saw them end up on the front lines of the fighting in Ukraine. Festus Omwamba was arrested on suspicion of human trafficking Wednesday in northern Kenya near the border with Ethiopia. Police spokesperson Michael Muchiri says Omwamba was fleeing after returning to the country from Russia. The Kenyan government last week said more than 1,000 Kenyans were recruited to fight for Russia in Ukraine.",
+        "content": "NAIROBI, Kenya (AP) — Police in Kenya have arrested a man named in the alleged scheme that duped Kenyans with promises of skilled work in Russia, only for them to end up on the front lines of the fighting in Ukraine.\nFestus Omwamba was arrested on su... [326 chars]",
+        "url": "https://www.ajc.com/news/2026/02/kenyan-police-arrest-man-accused-of-recruiting-fighters-for-russias-war-in-ukraine/",
+        "image": "https://images.ajc.com/resizer/v2/6ACHU3R26BGN3FYSD4W3PJDFBQ.jpg?auth=98b8d9f4615877aca12824dbbdfc48d8d2bfe58ca105e9577ba3db7be2ef72a0&width=1200&height=630&smart=true",
+        "publishedAt": "2026-02-26T10:42:34Z",
+        "lang": "en",
+        "source": {
+          "id": "79e9a45376a66fd7e1a4e68bba928c39",
+          "name": "The Atlanta Journal-Constitution",
+          "url": "https://www.ajc.com",
+          "country": "us"
+        }
+      },
+      {
+        "id": "92aa6fd17bafe8bc3e280bbd1520c21d",
+        "title": "Kenyan police arrest man accused of recruiting fighters for Russia's war in Ukraine",
+        "description": "NAIROBI, Feb 26: Police in Kenya have arrested a man named in the alleged scheme that duped Kenyans with promises of skilled work in Russia, only for them to end up on the front lines of the fighting in Ukraine. Festus Omwamba was arrested on suspicion of human trafficking in the northern Kenyan town of Moyale, near the border with Ethiopia, and will be transported to the capital, Nairobi. Police spokesperson Michael Muchiri said Omwamba was fleeing after returning from […]",
+        "content": "By\nDaily Excelsior\n-\nNAIROBI, Feb 26: Police in Kenya have arrested a man named in the alleged scheme that duped Kenyans with promises of skilled work in Russia, only for them to end up on the front lines of the fighting in Ukraine.\nFestus Omwamba wa... [2890 chars]",
+        "url": "https://www.dailyexcelsior.com/kenyan-police-arrest-man-accused-of-recruiting-fighters-for-russias-war-in-ukraine/",
+        "image": "https://www.dailyexcelsior.com/wp-content/uploads/2026/02/P.jpg",
+        "publishedAt": "2026-02-26T10:23:00Z",
+        "lang": "en",
+        "source": {
+          "id": "28bc60a23a7bf89e60f893506992a3fe",
+          "name": "Daily Excelsior",
+          "url": "https://www.dailyexcelsior.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "88f49f4468d524fabedddd7042204f92",
+        "title": "Trump Could Prevent War in Ethiopia",
+        "description": "Donald Trump is fond of saying wars don’t start on his watch and that he’s ended some we never knew possible. That’s at least up for debate, as the US president lays his finger on the trigger of another possible attack on Iran. Even so, there is one high-stakes conflict in the already troubled Horn of Africa that’s ripe for pre-emptive diplomacy — and where he would be uniquely placed to lead.",
+        "content": "Donald Trump is fond of saying wars don’t start on his watch and that he’s ended some we never knew possible. That’s at least up for debate, as the US president lays his finger on the trigger of another possible attack on Iran. Even so, there is one ... [497 chars]",
+        "url": "https://www.bloomberg.com/opinion/articles/2026-02-26/trump-could-prevent-war-in-ethiopia",
+        "image": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ilaw.zvidkeE/v0/1200x800.jpg",
+        "publishedAt": "2026-02-26T05:00:09Z",
+        "lang": "en",
+        "source": {
+          "id": "7006f2c40c7cc01195608dbfd60259b3",
+          "name": "Bloomberg",
+          "url": "https://www.bloomberg.com",
+          "country": "us"
+        }
+      }
+    ],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "MLI",
@@ -5519,7 +6394,94 @@
         "actor2": "Military Forces of Mali (2021-)",
         "notes": "On 5 September 2024, JNIM militants fired mortar shells against the FAMa camp in the town of Nampala (Niono, Segou).One soldier was wounded."
       }
-    ]
+    ],
+    "articles": [
+      {
+        "id": "790c5f30f482272ed22958a72882fc0f",
+        "title": "Nagpur Engineer's Mali Ordeal: Family Urges Efforts for Release Amidst Health Crisis",
+        "description": "Priyanka Gulhane, the wife of a Nagpur-based civil engineer detained in Mali, is appealing for urgent intervention from Maharashtra's Chief Minister to secure her husband's release. Despite bail being granted, financial disputes involving his employer have delayed his release, raising health concerns due to his serious ailments.",
+        "content": "Priti Gulhane, the distressed wife of Nitin Gulhane, a civil engineer from Nagpur, is fervently seeking help to secure her husband's release from a Mali jail, where he has been detained since February last year. The incarceration followed a financial... [571 chars]",
+        "url": "https://www.devdiscourse.com/article/law-order/3808288-nagpur-engineers-mali-ordeal-family-urges-efforts-for-release-amidst-health-crisis",
+        "image": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/devnews/17_11_2025_10_44_53_6699259.jpg?width=920&format=jpeg",
+        "publishedAt": "2026-02-17T14:19:25Z",
+        "lang": "en",
+        "source": {
+          "id": "c6a01ba91c1a2bc3f53f4707110bfee5",
+          "name": "Devdiscourse",
+          "url": "https://www.devdiscourse.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "da96758922f6947fa3b8b65bcd72f6bd",
+        "title": "Mali renews Barrick Mining's Loulo license for 10 more years",
+        "description": "Mali's government approved a draft decree renewing Barrick Mining's Loulo gold mining permit for an additional 10 years, the West African country's military leader said in a statement on Friday.",
+        "content": "Mali, one of Africa's leading gold producers, resolved a dispute in November with Barrick over profit-sharing and control of the Loulo-Gounkoto gold mining complex after two years of negotiations, sparked by a 2023 mining code that raised taxes and i... [863 chars]",
+        "url": "https://www.reuters.com/world/africa/mali-renews-barrick-minings-loulo-license-10-more-years-2026-02-13/",
+        "image": "https://www.reuters.com/resizer/v2/R3PQ6L2BLZPDTDXUIQOB6AM5IE.jpg?auth=be009c3af5e8bdfc83f32fe020425445744ccc4d762b44c4ab60d0d0127545a9&height=1005&width=1920&quality=80&smart=true",
+        "publishedAt": "2026-02-13T23:55:35Z",
+        "lang": "en",
+        "source": {
+          "id": "da5c26287bdd02563a2c32b55cb12051",
+          "name": "Reuters",
+          "url": "https://www.reuters.com",
+          "country": "us"
+        }
+      },
+      {
+        "id": "c0cd24e4b277f392d1f6f73acc124aba",
+        "title": "Mali renews Barrick Mining's Loulo license for 10 more years",
+        "description": "Mali's government approved a draft decree renewing Barrick Mining's Loulo gold mining permit for an additional 10 years, the West African country's military leader said in a statement on Friday. \n...",
+        "content": "BAMAKO, Feb 13 (Reuters) - Mali's government approved a draft decree renewing Barrick Mining's Loulo gold mining permit for an additional 10 years, the West African country's military leader said in a statement on Friday.\nMali, one of Africa's leadin... [1073 chars]",
+        "url": "https://www.marketscreener.com/news/mali-renews-barrick-mining-s-loulo-license-for-10-more-years-ce7e5ddad081f321",
+        "image": "https://cdn.zonebourse.com/static/resize/0/0//images/reuters/2026-02/2026-02-05T125033Z_1_LYNXMPEM140UG_RTROPTP_4_BARRICK-MINING-CEO.JPG",
+        "publishedAt": "2026-02-13T23:48:17Z",
+        "lang": "en",
+        "source": {
+          "id": "20cff2bcbc7e0fce7e6182772a9e2a7e",
+          "name": "MarketScreener",
+          "url": "https://www.marketscreener.com",
+          "country": "fr"
+        }
+      },
+      {
+        "id": "6762bda49205115e14ed225d4a621a45",
+        "title": "Mali: Exiled Imam calls for peace in Sahel region",
+        "description": "On Thursday, exiled Malian imam Mahmoud Dicko Dicko urged an end to the jihadist violence engulfing the Sahel countries, insisting, ‘we must find a solution for the entire sub-region’.",
+        "content": "On Thursday, exiled Malian imam Mahmoud Dicko urged an end to the jihadist violence engulfing the Sahel countries, insisting, ‘we must find a solution for the entire sub-region’.\nOver the past ten years, Burkina Faso, Mali and Niger have been plagued... [663 chars]",
+        "url": "https://www.africanews.com/2026/02/13/mali-exiled-imam-calls-for-peace-in-sahel-region/",
+        "image": "https://images.euronews.com/articles/stories/09/64/99/56/1024x538_cmsv2_74515b98-c0e9-54c3-adc5-ab8e16e81c12-9649956.jpg",
+        "publishedAt": "2026-02-13T09:59:01Z",
+        "lang": "en",
+        "source": {
+          "id": "4ee8a93f92a1be4ced3de6f96b13bcca",
+          "name": "Africanews",
+          "url": "https://www.africanews.com",
+          "country": "fr"
+        }
+      },
+      {
+        "id": "a9e452bf710fa5b8592b7768cb398bf0",
+        "title": "Mali's junta arrests prominent journalist for criticizing Niger's military leader, rights group says",
+        "description": "Malian authorities have arrested a prominent journalist for criticizing the leader of neighboring Niger. That's according to a prominent rights group.",
+        "content": "BAMAKO, Mali (AP) — Malian authorities arrested a prominent journalist for criticizing the leader of neighboring Niger, a rights group said Monday, as the military regime in the West African country increasingly curtails freedom of expression during ... [2133 chars]",
+        "url": "https://apnews.com/article/mali-press-journalism-arrestation-freedom-sissoko-alternance-181552e5b912e1b7fa655804bfe80c75",
+        "image": "https://dims.apnews.com/dims4/default/295c329/2147483647/strip/true/crop/675x450+12+0/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F90%2F29%2F4e3c1cc7446089a9101a7bdff4c8%2Fdefaultshareimage-copy.png",
+        "publishedAt": "2026-02-09T20:34:18Z",
+        "lang": "en",
+        "source": {
+          "id": "20ca9773b4c0563e26b4c2863bdf8c19",
+          "name": "The Associated Press",
+          "url": "https://apnews.com",
+          "country": "us"
+        }
+      }
+    ],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "RUS",
@@ -6021,7 +6983,95 @@
         "actor2": "",
         "notes": "On 3 September 2024, 1 Ukrainian drones struck an enterprise building in the village of Rzhevka (Shebekinskiy, Belgorod). No casualties, 1 car was destroyed, 2 cars were damaged."
       }
-    ]
+    ],
+    "articles": [
+      {
+        "id": "582d9c5b32b228bdad315b3743bd04dc",
+        "title": "If Putin stopped Russia's war in Ukraine he would fall, Estonian PM tells Euronews",
+        "description": "Estonian PM Kristen Michal told Euronews' Europe Today morning programme Putin cannot afford to end the war in Ukraine, urging the EU to unlock €90 billion in aid and invest more in defence.",
+        "content": "Estonian PM Kristen Michal told Euronews' flagship morning show Europe Today that Russian President Vladimir Putin cannot afford to end Moscow's war in Ukraine, comparing his grip on power to “riding a bike”.\nWhile Michal said he does not claim to un... [3252 chars]",
+        "url": "https://www.euronews.com/my-europe/2026/02/27/if-putin-stopped-russias-war-in-ukraine-he-would-fall-estonian-pm-tells-euronews",
+        "image": "https://images.euronews.com/articles/stories/09/66/54/05/1200x675_cmsv2_13392d9b-5fb7-530f-bd87-d4d06e3659fa-9665405.jpg",
+        "publishedAt": "2026-02-27T07:50:38Z",
+        "lang": "en",
+        "source": {
+          "id": "3d24c816061d69b2e23b8583aed9b447",
+          "name": "Euronews",
+          "url": "https://www.euronews.com",
+          "country": "fr"
+        }
+      },
+      {
+        "id": "13d850692a18aedbf707f88d2da44b1c",
+        "title": "Russia says local truce established to enable repairs at Zaporizhzhia nuclear plant",
+        "description": "The plant, Europe's largest, has been under Russian control since shortly after the start of the war in 2022.",
+        "content": "MOSCOW, Feb 27 (Reuters) - A local ceasefire took effect near the Zaporizhzhia nuclear power plant in southeastern Ukraine on Friday to enable repairs to an external power line, Russian officials said.\nThe plant, Europe's largest, has been under Russ... [1149 chars]",
+        "url": "https://www.reuters.com/world/russia-says-local-truce-established-enable-repairs-zaporizhzhia-nuclear-plant-2026-02-27/",
+        "image": "https://www.reuters.com/resizer/v2/DUQXFKS7BRMRNPANMYWNUQ5LFI.jpg?auth=c621446a8d9231644d487f1955889f0e316d79e42232a3a2cf311f59cb38ae44&height=1005&width=1920&quality=80&smart=true",
+        "publishedAt": "2026-02-27T07:44:10Z",
+        "lang": "en",
+        "source": {
+          "id": "da5c26287bdd02563a2c32b55cb12051",
+          "name": "Reuters",
+          "url": "https://www.reuters.com",
+          "country": "us"
+        }
+      },
+      {
+        "id": "883539f5a546e38696e681daaffbef91",
+        "title": "Pakistan-Afghanistan ‘war’ Live: ‘Our patience has reached its limit,’ says Khwaja Asif as UN chief, Russia urge to de-escalate tension",
+        "description": "Pakistan-Afghanistan war live updates: Russia urges both nations to halt cross-border attacks after airstrikes, heavy casualties, and escalating fighting along the Durand Line.",
+        "content": "Pakistan-Afghanistan war live updates: Pakistan’s Defence Minister Khawaja Asif has said that the country is now in “open war” with Afghanistan after fresh airstrikes and cross-border attacks between the two neighbours, according to the Associated Pr... [1438 chars]",
+        "url": "https://www.financialexpress.com/world-news/pakistan-afghanistan-war-live-updates-taliban-kabul-air-strikes-islamabad-latest-news/4156477/",
+        "image": "https://images.financialexpressdigital.com/2026/02/Financial-express-78.jpg",
+        "publishedAt": "2026-02-27T06:00:54Z",
+        "lang": "en",
+        "source": {
+          "id": "63361c66f51ee0c82a5325ba1c7b8d06",
+          "name": "The Financial Express",
+          "url": "https://www.financialexpress.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "f1d128b09c1bd5151f586d757683c562",
+        "title": "US talks on rebuilding Ukraine held after latest air onslaught",
+        "description": "Ukrainian and US officials met in Geneva yesterday for talks on post-war reconstruction despite a deadlock in peace negotiations with Russia, which pounded infrastructure across Ukraine with drone and missile strikes overnight.",
+        "content": "Ukrainian President Volodymyr Zelensky said Russia had launched 420 drones and 39 missiles in another night of attacks on energy and other critical infrastructure.\nDozens of people were injured and damage was reported across eight regions, he said.\nT... [3852 chars]",
+        "url": "https://www.independent.ie/world-news/us-talks-on-rebuilding-ukraine-held-after-latest-air-onslaught/a1490629382.html",
+        "image": "https://focus.independent.ie/thumbor/XBwFcJiIHUekzwNj1c59rrEJ95k=/629x460/smart/prod-mh-ireland/0e98bb99-158f-4fb3-a05b-ec91b2be6cea/a337ec4e-fdf5-461c-935b-87bce84c0548/UKRAINE%20R%20%2848%29.jpg",
+        "publishedAt": "2026-02-27T05:30:00Z",
+        "lang": "en",
+        "source": {
+          "id": "ead461b236347a41a0e3561761126583",
+          "name": "Independent.ie",
+          "url": "https://www.independent.ie",
+          "country": "ie"
+        }
+      },
+      {
+        "id": "dae7d48088c9426a159ed5f622997f7d",
+        "title": "IMF Approves $8.1 Billion Loan for Ukraine Amid Ongoing War Against Russia",
+        "description": "The IMF has approved an $8.1 billion loan for Ukraine to support its economy amid the ongoing conflict with Russia. The loan is part of a $136.5 billion international support package. Ukrainian officials commit to reform efforts while facing economic challenges and planning for post-war recovery.",
+        "content": "The International Monetary Fund (IMF) has approved an $8.1 billion, four-year loan for Ukraine, releasing $1.5 billion immediately to ensure the government remains operational amid its ongoing war with Russia. This new arrangement is part of a $136.5... [1052 chars]",
+        "url": "https://www.devdiscourse.com/article/business/3819513-imf-approves-81-billion-loan-for-ukraine-amid-ongoing-war-against-russia",
+        "image": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/aiimagegallery/06_06_2025_08_52_53_6633533.png?width=920&format=jpeg",
+        "publishedAt": "2026-02-27T04:29:40Z",
+        "lang": "en",
+        "source": {
+          "id": "c6a01ba91c1a2bc3f53f4707110bfee5",
+          "name": "Devdiscourse",
+          "url": "https://www.devdiscourse.com",
+          "country": "in"
+        }
+      }
+    ],
+    "economicImpact": {
+      "armsEmbargo": true,
+      "financialSanctions": true,
+      "travelBans": true,
+      "description": "Comprehensive western sanctions targeting financial sectors, tech exports, and oligarchs."
+    }
   },
   {
     "id": "PAK",
@@ -6523,7 +7573,94 @@
         "actor2": "Civilians (Pakistan)",
         "notes": "On 6 September 2024, unidentified militants (coded as TTP) shot dead a police head constable in Masti Khel area (coded as Kabul Khel (Lakki Marwat, KPK)) while the individual was at home on vacation."
       }
-    ]
+    ],
+    "articles": [
+      {
+        "id": "db287754b2e0556818a56a27282d6b3f",
+        "title": "'Now it is open war': Taliban military posts, HQs, ammo depots hit; details of Pakistan strikes on Afghanistan",
+        "description": "South Asia News: In a declared “open war,” Pakistan launched overnight airstrikes in Afghanistan, heavily bombing multiple key cities, including Kabul and Kandahar, an.",
+        "content": "In a declared “open war,” Pakistan launched overnight airstrikes in Afghanistan, heavily bombing multiple key cities, including Kabul and Kandahar, and claiming that 133 people were killed in what Islamabad called a “strong and effective” retaliation... [6184 chars]",
+        "url": "https://timesofindia.indiatimes.com/world/south-asia/now-it-is-open-war-taliban-military-posts-hqs-ammo-depots-hit-details-of-pakistan-strikes-on-afghanistan/articleshow/128840015.cms",
+        "image": "https://static.toiimg.com/thumb/msid-128841142,width-1280,height-720,imgsize-769337,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+        "publishedAt": "2026-02-27T08:00:00Z",
+        "lang": "en",
+        "source": {
+          "id": "9a9a0fb79c70bbf499d39baca94921ae",
+          "name": "Times of India",
+          "url": "https://timesofindia.indiatimes.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "8022fbdd3f43e4e8884fa0dff7fca1a5",
+        "title": "Defence minister says Pakistan in ‘open war’ with Afghanistan after new strikes",
+        "description": "The escalation comes months after Qatar and Turkey mediated a ceasefire between the two sides.",
+        "content": "The remarks came after both sides launched strikes following what Islamabad described as an Afghan cross-border attack.\nIn a post on X, defence minister Khawaja Mohammad Asif said Pakistan had hoped for peace in Afghanistan after the withdrawal of Na... [3580 chars]",
+        "url": "https://www.theargus.co.uk/news/national/25892255.defence-minister-says-pakistan-open-war-afghanistan-new-strikes/",
+        "image": "https://www.theargus.co.uk/resources/images/20592620.jpg?type=og-image",
+        "publishedAt": "2026-02-27T07:58:11Z",
+        "lang": "en",
+        "source": {
+          "id": "3d2a4d975b6c438d6b1930301d34d9ca",
+          "name": "The Argus",
+          "url": "https://www.theargus.co.uk",
+          "country": "gb"
+        }
+      },
+      {
+        "id": "0992afca8040bf93aa10ab58cac0323f",
+        "title": "Defence minister says Pakistan in ‘open war’ with Afghanistan after new strikes",
+        "description": "The escalation comes months after Qatar and Turkey mediated a ceasefire between the two sides.",
+        "content": "The remarks came after both sides launched strikes following what Islamabad described as an Afghan cross-border attack.\nIn a post on X, defence minister Khawaja Mohammad Asif said Pakistan had hoped for peace in Afghanistan after the withdrawal of Na... [3580 chars]",
+        "url": "https://www.thenorthernecho.co.uk/news/national/25892255.defence-minister-says-pakistan-open-war-afghanistan-new-strikes/",
+        "image": "https://www.thenorthernecho.co.uk/resources/images/20592620.jpg?type=og-image",
+        "publishedAt": "2026-02-27T07:58:11Z",
+        "lang": "en",
+        "source": {
+          "id": "7781249a7ee516bd54fcb531986dffe1",
+          "name": "Northern Echo",
+          "url": "https://www.thenorthernecho.co.uk",
+          "country": "gb"
+        }
+      },
+      {
+        "id": "5d953c3ec33bc0f7772c39ef839be358",
+        "title": "Defence minister says Pakistan in ‘open war’ with Afghanistan after new strikes",
+        "description": "The escalation comes months after Qatar and Turkey mediated a ceasefire between the two sides.",
+        "content": "The remarks came after both sides launched strikes following what Islamabad described as an Afghan cross-border attack.\nIn a post on X, defence minister Khawaja Mohammad Asif said Pakistan had hoped for peace in Afghanistan after the withdrawal of Na... [3580 chars]",
+        "url": "https://www.oxfordmail.co.uk/news/national/25892255.defence-minister-says-pakistan-open-war-afghanistan-new-strikes/",
+        "image": "https://www.oxfordmail.co.uk/resources/images/20592620.jpg?type=og-image",
+        "publishedAt": "2026-02-27T07:58:11Z",
+        "lang": "en",
+        "source": {
+          "id": "6b5c45eb50a6698dcc6711c82d72fb2e",
+          "name": "Oxford Mail",
+          "url": "https://www.oxfordmail.co.uk",
+          "country": "gb"
+        }
+      },
+      {
+        "id": "df8cdd78f0c1969e4066562e52ba8f0e",
+        "title": "Defence minister says Pakistan in ‘open war’ with Afghanistan after new strikes",
+        "description": "The escalation comes months after Qatar and Turkey mediated a ceasefire between the two sides.",
+        "content": "The remarks came after both sides launched strikes following what Islamabad described as an Afghan cross-border attack.\nIn a post on X, defence minister Khawaja Mohammad Asif said Pakistan had hoped for peace in Afghanistan after the withdrawal of Na... [3580 chars]",
+        "url": "https://www.lancashiretelegraph.co.uk/news/national/25892255.defence-minister-says-pakistan-open-war-afghanistan-new-strikes/",
+        "image": "https://www.lancashiretelegraph.co.uk/resources/images/20592620.jpg?type=og-image",
+        "publishedAt": "2026-02-27T07:58:11Z",
+        "lang": "en",
+        "source": {
+          "id": "12bd9b09a1d7744221166ca00643f2f7",
+          "name": "Lancashire Telegraph",
+          "url": "https://www.lancashiretelegraph.co.uk",
+          "country": "gb"
+        }
+      }
+    ],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "CMR",
@@ -7025,7 +8162,94 @@
         "actor2": "Civilians (Cameroon)",
         "notes": "On 4 September 2024, unidentified armed group shot and killed a pastor working at the Full Gospel Mission on Cow Street in Bamenda - Nkwen (Bamenda 3, Mezam, Nord-Ouest) for an unknown reason."
       }
-    ]
+    ],
+    "articles": [
+      {
+        "id": "86208f9bb8b20e24f6790a83425c7ce6",
+        "title": "Cameroon to release body of late opposition leader",
+        "description": "The decision comes almost three months after Anicet Ekane died in military detention, some five weeks after being arrested.",
+        "content": "It has been almost three months since Cameroon’s leading opposition figure, Anicet Ekane, died in military detention, some five weeks after being arrested.\nNow the authorities are finally allowing the 74-year-old’s family to retrieve his body which h... [1025 chars]",
+        "url": "https://www.africanews.com/2026/02/24/cameroon-to-release-body-of-late-opposition-leader/",
+        "image": "https://images.euronews.com/articles/stories/09/65/34/93/1024x538_cmsv2_b5f65318-c40d-50e6-9ab6-5bf85d7aaec5-9653493.jpg",
+        "publishedAt": "2026-02-24T09:47:43Z",
+        "lang": "en",
+        "source": {
+          "id": "4ee8a93f92a1be4ced3de6f96b13bcca",
+          "name": "Africanews",
+          "url": "https://www.africanews.com",
+          "country": "fr"
+        }
+      },
+      {
+        "id": "1cf7ba3f115964535d7dd3bf848c1497",
+        "title": "Cameroon returns gay woman to Morocco",
+        "description": "DAKAR, Senegal -- Being gay in Morocco is illegal and punishable by up to three years in prison. It was the violence from her family that forced Farah, a 21-year-old gay woman, to flee the country.",
+        "content": "DAKAR, Senegal -- Being gay in Morocco is illegal and punishable by up to three years in prison. It was the violence from her family that forced Farah, a 21-year-old gay woman, to flee the country.\nAfter a long journey to the United States and a thir... [3492 chars]",
+        "url": "https://www.arkansasonline.com/news/2026/feb/23/cameroon-returns-gay-woman-to-morocco/",
+        "image": "https://wehco.media.clients.ellingtoncms.com/imports/adg/photos/212288676_212286571-6c913948bec148499a6a049d00c7732a_t1200.jpg?57a0c2296240c280e9492005c3cad63e7cbe80f4",
+        "publishedAt": "2026-02-23T10:00:00Z",
+        "lang": "en",
+        "source": {
+          "id": "69a24b80e5bce5a07f808f5ea84c434b",
+          "name": "Arkansas Online",
+          "url": "https://www.arkansasonline.com",
+          "country": "us"
+        }
+      },
+      {
+        "id": "6f9eab589d3eaff5028f017744d0daee",
+        "title": "Escaping Injustice: A Moroccan Woman's Painful Journey and Legal Loopholes",
+        "description": "Farah, a gay woman from Morocco, fled her country due to familial violence and risk of prosecution for her sexuality. Despite securing a protection order in the US, she was deported to Cameroon, a country where homosexuality is illegal, showcasing legal loopholes in third-country deportations under the Trump administration.",
+        "content": "In Morocco, being gay is illegal, punishable by prison time, leading many, like 21-year-old Farah, to seek refuge elsewhere. Fleeing familial violence, she aimed for the United States but faced a multifaceted legal nightmare involving third-country d... [516 chars]",
+        "url": "https://www.devdiscourse.com/article/law-order/3813717-escaping-injustice-a-moroccan-womans-painful-journey-and-legal-loopholes",
+        "image": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/devnews/09_01_2025_09_53_30_2640735.jpg?width=920&format=jpeg",
+        "publishedAt": "2026-02-22T12:15:48Z",
+        "lang": "en",
+        "source": {
+          "id": "c6a01ba91c1a2bc3f53f4707110bfee5",
+          "name": "Devdiscourse",
+          "url": "https://www.devdiscourse.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "8391b8b9e5d74574177f4467b77aaefb",
+        "title": "Global Affairs Unfold: Tensions, Alliances, and Developments",
+        "description": "The summary of current world news includes Australia's $2.7 billion submarine shipyard investment, US deportations to Cameroon, DOJ's Epstein files redactions, Ukraine's drone strike impact on Russia's port, Iran-US negotiations, Rubio's diplomatic tour in Eastern Europe, US military plans against Iran, Israeli airstrikes in Gaza, New Zealand's flooding crisis, and EU's stance on Ukraine's membership.",
+        "content": "In a significant defence move, Australia has committed $2.7 billion to advance the construction of a shipyard for nuclear submarines under the AUKUS agreement with the US and the UK, marking Australia's largest defence investment to date.\nThe US is u... [484 chars]",
+        "url": "https://www.devdiscourse.com/article/law-order/3805984-global-affairs-unfold-tensions-alliances-and-developments",
+        "image": "https://www.devdiscourse.com/remote.axd?https://devdiscourse.blob.core.windows.net/aiimagegallery/20_08_2024_23_56_05_215743.png?width=920&format=jpeg",
+        "publishedAt": "2026-02-15T13:01:11Z",
+        "lang": "en",
+        "source": {
+          "id": "c6a01ba91c1a2bc3f53f4707110bfee5",
+          "name": "Devdiscourse",
+          "url": "https://www.devdiscourse.com",
+          "country": "in"
+        }
+      },
+      {
+        "id": "8f9f9e5757b3ff14e1b2a463bf31e5bc",
+        "title": "Student's face 'divided in two' after she was shot six times and left for dead",
+        "description": "WARNING GRAPHIC IMAGES: Bah Median Ekue, 22, was blasted six times in a horror shooting after she got caught up in a military conflict in Cameroon. She has shared her journey to recovery but needs more facial reconstruction surgery",
+        "content": "WARNING GRAPHIC IMAGES: Bah Median Ekue, 22, was blasted six times in a horror shooting after she got caught up in a military conflict in Cameroon. She has shared her journey to recovery but needs more facial reconstruction surgery\nA student who was ... [4133 chars]",
+        "url": "https://www.dailystar.co.uk/news/latest-news/students-face-divided-two-after-36704562",
+        "image": "https://i2-prod.dailystar.co.uk/article36704559.ece/ALTERNATES/s1200/2_SWNS_SHOT_FACE_06_126906.jpg",
+        "publishedAt": "2026-02-11T12:21:00Z",
+        "lang": "en",
+        "source": {
+          "id": "4300aa22a5f803b09a37ff0632b44685",
+          "name": "The daily Star",
+          "url": "https://www.dailystar.co.uk",
+          "country": "gb"
+        }
+      }
+    ],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "COL",
@@ -7527,7 +8751,94 @@
         "actor2": "",
         "notes": "On 4 September 2024, in Campo Alicia vereda (Boyaca), ELN members detonated an explosive device the Cano Limon-Covenas oil pipeline. There were no casualties."
       }
-    ]
+    ],
+    "articles": [
+      {
+        "id": "e6dabeb52d9cd846a33571f67c0d4053",
+        "title": "Ecuador deepens trade dispute with Colombia by raising tariffs",
+        "description": "Ecuador's government said Thursday it will raise tariffs on imports from Colombia to 50% from 30%, effective Sunday, amid a deepening crisis.",
+        "content": "Feb. 26 (UPI) -- Ecuador's government said Thursday it will raise tariffs on imports from Colombia to 50% from 30%, effective Sunday, as tensions escalate over border security, trade and anti-narcotics cooperation between the neighboring Andean count... [2689 chars]",
+        "url": "https://www.upi.com/Top_News/World-News/2026/02/26/latam-ecuador-tariff-increase-colombia/6471772127665/",
+        "image": "https://cdnph.upi.com/sv/ph/og/i/6471772127665/2026/1/17721282812096/v1.5/Ecuador-deepens-trade-dispute-with-Colombia-by-raising-tariffs.jpg",
+        "publishedAt": "2026-02-26T17:52:17Z",
+        "lang": "en",
+        "source": {
+          "id": "79baacd62152cf257ee35e8c0bec19a2",
+          "name": "UPI News",
+          "url": "https://www.upi.com",
+          "country": "us"
+        }
+      },
+      {
+        "id": "3cb25a75d7f8784a58d4676b1afc0fb8",
+        "title": "Human rights situation in Colombia is backsliding, UN warns as nation heads into elections",
+        "description": "The United Nations warns Colombia risks sliding back into a harsh human rights crisis as rural violence surges and threatens upcoming elections.",
+        "content": "BOGOTA, Colombia (AP) — Colombia is at risk of “reverting to the serious human rights situation” it faced before a peace deal with the nation’s largest rebel group improved security conditions, the United Nations warned Thursday, adding that an uptic... [4166 chars]",
+        "url": "https://apnews.com/article/colombia-un-human-rights-violence-elections-0d2776ef95dae8cb7bd0a1c7c3a2ac66",
+        "image": "https://dims.apnews.com/dims4/default/8b7ef88/2147483647/strip/true/crop/7368x4909+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F00%2F25%2Fa436ed40029784aef012657d196b%2Fa07e1e8298ba4cf98ac8db954a6f5b8d",
+        "publishedAt": "2026-02-26T11:51:21Z",
+        "lang": "en",
+        "source": {
+          "id": "20ca9773b4c0563e26b4c2863bdf8c19",
+          "name": "The Associated Press",
+          "url": "https://apnews.com",
+          "country": "us"
+        }
+      },
+      {
+        "id": "46cb3f0d70ddd218e46748964311c732",
+        "title": "FIFA trusts Mexico’s World Cup hosting amid violence",
+        "description": "BARRANQUILLA, Colombia — FIFA boss Gianni Infantino told Agence France-Presse (AFP) on Tuesday he was “very reassured” about Mexico’s hosting of games in the football World Cup, in his first comments on the violence triggered by the killing of a drug cartel leader.",
+        "content": "BARRANQUILLA, Colombia — FIFA boss Gianni Infantino told Agence France-Presse (AFP) on Tuesday he was “very reassured” about Mexico’s hosting of games in the football World Cup, in his first comments on the violence triggered by the killing of a drug... [1343 chars]",
+        "url": "https://www.manilatimes.net/2026/02/26/sports/fifa-trusts-mexicos-world-cup-hosting-amid-violence/2284919",
+        "image": "https://www.manilatimes.net/theme_manilatimes/images/TMT_1920x1008.jpg",
+        "publishedAt": "2026-02-25T16:01:00Z",
+        "lang": "en",
+        "source": {
+          "id": "7c666ee953f873d3057b310220f510df",
+          "name": "The Manila Times",
+          "url": "https://www.manilatimes.net",
+          "country": "ph"
+        }
+      },
+      {
+        "id": "20ed650d76b1660b55ed93a5ef6a618b",
+        "title": "Infantino declares confidence in Mexico’s World Cup safety",
+        "description": "FIFA president Gianni Infantino says he has “total confidence” in Mexico safely staging World Cup finals and play-off matches despite an outbreak of violence close to one of the host cities.Infantino told reporters on a visit to Colombia: “Of course we are monitoring the situation in Mexico right now, but I want to say from the outset that we have total confidence in Mexico, in President Claudia Sheinbaum, in the authorities, and we are convinced that everything will turn out in the best possible way.",
+        "content": "FIFA president Gianni Infantino says he has “total confidence” in Mexico safely staging World Cup finals and play-off matches despite an outbreak of violence close to one of the host cities.\nInfantino told reporters on a visit to Colombia: “Of course... [1014 chars]",
+        "url": "https://morningstaronline.co.uk/article/infantino-declares-confidence-mexicos-world-cup-safety",
+        "image": "https://morningstaronline.co.uk/sites/default/files/styles/wide/public/2026-02/AP26050618941341.jpg.webp?itok=XW0SIdpD",
+        "publishedAt": "2026-02-25T00:00:00Z",
+        "lang": "en",
+        "source": {
+          "id": "6e38967e862de6c07c77ef45d72183a4",
+          "name": "The Morning Star",
+          "url": "https://morningstaronline.co.uk",
+          "country": "gb"
+        }
+      },
+      {
+        "id": "660141535b91fa7c4cfb1b356295a330",
+        "title": "Illegal gold mining surges into new parts of Peru’s Amazon, threatening rivers and lives",
+        "description": "BOGOTA, Colombia — Illegal gold mining is spreading into new parts of Peru’s Amazon, advancing along remote rivers and into Indigenous territories as experts warn of a widening environmental and public health crisis that could cause irreparable damage. The surge marks a new phase for one of the Amazon’s most",
+        "content": "BOGOTA, Colombia — Illegal gold mining is spreading into new parts of Peru’s Amazon, advancing along remote rivers and into Indigenous territories as experts warn of a widening environmental and public health crisis that could cause irreparable damag... [7461 chars]",
+        "url": "https://triblive.com/news/world/illegal-gold-mining-surges-into-new-parts-of-perus-amazon-threatening-rivers-and-lives/",
+        "image": "https://assets-varnish.triblive.com/2026/02/9315031_web1_9315031-663522c4bf7345c6b015196ffed68584.jpg",
+        "publishedAt": "2026-02-23T13:24:51Z",
+        "lang": "en",
+        "source": {
+          "id": "b1fa63410571207862faad9daf9b4527",
+          "name": "Pittsburgh Tribune-Review",
+          "url": "https://triblive.com",
+          "country": "us"
+        }
+      }
+    ],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "SSD",
@@ -8029,7 +9340,13 @@
         "actor2": "Gok Clan Militia (South Sudan)",
         "notes": "On 2 September 2024, people from two unidentified payams in Cueibet county (both actors are likely Gok Dinka, who predominantly inhabit Cueibet county) clashed at Cueibet in Malou Pec (Cueibet county,"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "AFG",
@@ -8531,7 +9848,13 @@
         "actor2": "Police Forces of Afghanistan (2021-) General Directorate of Intelligence",
         "notes": "On 4 September 2024, a mine explosion planted on a bicycle occurred in the Pol Kalan area, near the old city crossroad in the Kabul port of Taluqan city, Takhar. 2-3 civilians including a child were k"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "COD",
@@ -9033,7 +10356,14 @@
         "actor2": "M23: March 23 Movement",
         "notes": "On 4 September 2024, Wazalendo exchanged gunfire with M23 on several hills overlooking Bweremana (Bahunde, Masisi, Nord-Kivu). Casualties unknown. Wazalendo repelled M23, who attempted to advance beyo"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": true,
+      "financialSanctions": false,
+      "travelBans": true,
+      "description": "UN and US targeted sanctions against rebel leaders and armed group commanders."
+    }
   },
   {
     "id": "CAF",
@@ -9535,7 +10865,13 @@
         "actor2": "Civilians (Central African Republic)",
         "notes": "On 30 August 2024, a FACA soldier shot and killed 1 civilian in Nola (Nola, Nola, Sangha-Mbaere) after an altercation."
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "SYR",
@@ -10037,7 +11373,14 @@
         "actor2": "",
         "notes": "On 6 September 2024, Turkish forces shelled Tokhar town in Aleppo countryside with heavy artillery. Casualties unknown."
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": true,
+      "financialSanctions": true,
+      "travelBans": true,
+      "description": "Extensive US (Caesar Act) and EU sanctions targeting the regime and affiliated entities."
+    }
   },
   {
     "id": "IND",
@@ -10539,7 +11882,13 @@
         "actor2": "Naxal-Maoist Rebels (India)",
         "notes": "On 3 September 2024, a joint team of District Reserve Guard (DRG), and Central Reserve Police Force (BSF) clashed with Naxal-Maoist rebels in the forests bordering Dantewada and Bijapur districts (Chh"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "MDG",
@@ -11041,7 +12390,13 @@
         "actor2": "Civilians (Madagascar)",
         "notes": "On 2 September 2024, a suspected Dahalo group armed with homemade guns, invaded a house in Andrangy (Soavinandriana, Itasy) killing a man and injuring other family members. Motivation unknown/not repo"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "YEM",
@@ -11543,7 +12898,14 @@
         "actor2": "Civilians (Yemen)",
         "notes": "On 5 September 2024, Houthi forces tortured and killed 1 civilian near a checkpoint in As Salif Junction (Bajil, Al Hudaydah). The source claimed that the civilian was an elder and worked as a guard f"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": true,
+      "financialSanctions": true,
+      "travelBans": true,
+      "description": "Targeted UN and US sanctions against key figures in the conflict."
+    }
   },
   {
     "id": "KEN",
@@ -12045,7 +13407,13 @@
         "actor2": "Civilians (Kenya)",
         "notes": "On 3 September 2024, police officers shot dead a 15-year-old boy in the Mukuru Kwa Ruben neighborhood of Nairobi - Embakasi South (Embakasi South, Nairobi) for disrespecting their work after the decea"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "IRQ",
@@ -12547,7 +13915,13 @@
         "actor2": "Unidentified Tribal Militia (Iraq)",
         "notes": "On 6 September 2024, militants from two unspecified tribes clashed using firearms in Taliah district (Babil) due to a land dispute leaving 3 injured. There were no fatalities."
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "Trinidad and Tobago",
@@ -13045,7 +14419,13 @@
         "actor2": "Civilians (Trinidad and Tobago)",
         "notes": "On 5 September 2024, in Arouca, Tunapuna Piarco, an armed man exited the back passenger seat of a vehicle and shot and killed a man who was on the East Gates Mall's carpark. Motivation unknown. The sh"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "PHL",
@@ -13547,7 +14927,13 @@
         "actor2": "Military Forces of the Philippines (2022-)",
         "notes": "On 4 September 2024, suspected NPA militants clashed with soldiers in Barangay Roxas (Catubig, Northern Samar, Eastern Visayas). The military recovered weapons and other items from the militants. Ther"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "VEN",
@@ -14049,7 +15435,14 @@
         "actor2": "El Noe Gang",
         "notes": "On 4 September 2024, in Palo Negro (Aragua), CICPC police forces shot and killed three members of the El Noe gang, during an armed clash in the Santa Eduvigis sector, Las Vegas neighborhood. Police we"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": true,
+      "financialSanctions": true,
+      "travelBans": true,
+      "description": "Sectoral sanctions targeting state oil infrastructure and government officials."
+    }
   },
   {
     "id": "Jamaica",
@@ -14547,7 +15940,13 @@
         "actor2": "Unidentified Armed Group (Jamaica)",
         "notes": "On 4 September 2024, in Spanish Town, Saint Catherine, overnight, police forces shot and killed an armed man during a clash near Lakes Pen Road. According to the officers, the now deceased opened fire"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "HTI",
@@ -15045,7 +16444,13 @@
         "actor2": "Civilians (Haiti)",
         "notes": "On 29 August 2024, in Tabarre - Chateau Blond, Ouest, a truck driver was shot and killed after he heard gunshots and tried to run away. Gunshots were heard near the Third Party Vehicle Insurance Offic"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "NER",
@@ -15439,7 +16844,13 @@
         "actor2": "Boko Haram - Jamaatu Ahli is-Sunnah lid-Dawati wal-Jihad",
         "notes": "Around 22 August 2024 (between 21 - 23 August), Niger air forces carried out airstrikes against armed groups (likely Boko Haram (JAS), based on location) in Bouloutoungour I (Bosso, Diffa) and (likely"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "HND",
@@ -15937,7 +17348,13 @@
         "actor2": "Civilians (Honduras)",
         "notes": "On 1 September 2024, outside Tegucigalpa, Francisco Morazan, suspected gang members shot and killed two young men in the Villa Cristina neighborhood. The victims were found bound by their hands and pa"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "Puerto Rico",
@@ -16435,7 +17852,13 @@
         "actor2": "Civilians (Puerto Rico)",
         "notes": "Around 6 September 2024 (as reported), in San Juan, San Juan, in the early morning, a man was shot and killed and his body was found under a bridge on the John F. Kennedy Avenue with hands tied up. Mo"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "ZAF",
@@ -16929,7 +18352,13 @@
         "actor2": "Civilians (South Africa)",
         "notes": "Around 1 September 2024 (as reported), the body of a dead man was found on the roadway outside Marklands Secondary School in a suspected vigilante attack in Shallcross (eThekwini, KwaZulu-Natal). Acco"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "IRN",
@@ -17431,7 +18860,14 @@
         "actor2": "Military Forces of Iran (1989-) Islamic Revolutionary Guard Corps",
         "notes": "On 2 September 2024, militiamen of the Army of Justice fired at a vehicle near Eskelabad village in Khash county (coded to Khash city) (Sistan and Baluchestan). As a result, an IRGC officer was killed"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": true,
+      "financialSanctions": true,
+      "travelBans": true,
+      "description": "Extensive financial, trade, and targeted individual sanctions led by the US and EU."
+    }
   },
   {
     "id": "BGD",
@@ -17933,7 +19369,13 @@
         "actor2": "RSO: Rohingya Solidarity Organization",
         "notes": "On 5 September 2024, members of Arakan Rohingya Salvation Army (ARSA) and Rohingya Solidarity Organization (RSO) engaged in a gunfight at a refugee camps in Ukhia upazila (coded as Ukhiya, Cox's Bazar"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "AGO",
@@ -18098,7 +19540,13 @@
         "actor2": "Civilians (Angola)",
         "notes": "On 22 July 2024, Angolan Armed Forces (FAC) shot and killed seven women at the Mbata-Mbengi border between Cabinda and DRC (Cabinda, Cabinda) over suspicion of being FLEC-FAC military wives. FLEC-FLAC"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "TCD",
@@ -18366,7 +19814,13 @@
         "actor2": "Civilians (Chad)",
         "notes": "On 28 August 2024, an unidentified armed group attacked passengers of three public transport vehicles along the Faya-Largeau - Kouba-Olanga route, near well 110, coded to Faya Largeau (Borkou Yala, Bo"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "LBY",
@@ -18868,7 +20322,13 @@
         "actor2": "Kabouat Militia (Libya)",
         "notes": "On 6 September 2024, the Al Isnad and Kabouat militias engaged in an armed clash in Az Zawiyah (Az Zawiyah, West) after members of the first group attacked and killed a member of the second."
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "BEN",
@@ -19271,7 +20731,13 @@
         "actor2": "Unidentified Armed Group (Benin)",
         "notes": "On 20 August 2024, suspected JNIM ambushed and exchanged fire with poachers near Pouri (Materi, Atacora). No casualties reported."
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "BDI",
@@ -19674,7 +21140,13 @@
         "actor2": "Civilians (Burundi)",
         "notes": "Around 28 August 2024 (as reported), an unidentified armed group killed and dumped the body of an Imbonerakure near Mugendo (Ntega, Kirundo). This Imbonerakure had been accused in different murder cas"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "UGA",
@@ -19924,7 +21396,13 @@
         "actor2": "Civilians (Uganda)",
         "notes": "On 28 August 2024, an explosive planted by an unidentified armed group exploded in Oyajo (Moyo, Moyo). Four people were left with serious injuries. The police intervened to investigate the matter."
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "TUR",
@@ -20426,7 +21904,13 @@
         "actor2": "PKK: Kurdistan Workers Party",
         "notes": "On 18 August 2024, Turkish army forces launched an attack after detecting two PKK paramotors crossing the Iraq-Turkey border in the Mount Dugun area of Sirnak's Uludere district. 4 PKK militants were "
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "PRK",
@@ -20467,7 +21951,14 @@
         "actor2": "Civilians (North Korea)",
         "notes": "Around 3 July 2024 (week of), according to an anonymous South Korean government official, around 30 young middle school students were publicly executed by the security guards of the State Security Dep"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": true,
+      "financialSanctions": true,
+      "travelBans": true,
+      "description": "UN Security Council and comprehensive international sanctions regarding nuclear proliferation."
+    }
   },
   {
     "id": "THA",
@@ -20852,7 +22343,13 @@
         "actor2": "Civilians (Thailand)",
         "notes": "On 9 August 2024, three bombs planted by suspected Malay Muslim separatists went off near the Pattani Provincial Police Investigation Division and the entrance to the Pattani Fishing Pier in Yu Yo, Ba"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "LBN",
@@ -21354,7 +22851,13 @@
         "actor2": "",
         "notes": "On 5 September 2024, the Israeli military fired artillery shells towards Es Sedaneh (Hasbeiya, Al Nabatieh) amid ongoing hostilities with Hezbollah. There were no casualties."
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "PER",
@@ -21622,7 +23125,13 @@
         "actor2": "Unidentified Armed Group (Peru)",
         "notes": "On 18 August 2024, in Pichari (La Convencion, Cusco), an unknown number of unidentified armed suspects shot and killed an on-duty intelligence police officer near the municipality's police station in "
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "MAR",
@@ -21748,7 +23257,13 @@
         "actor2": "Civilians (Mauritania)",
         "notes": "On 8 August 2024, a Moroccan army UAV targeted and bombed two trucks and a vehicle belonging to Mauritanian gold miners in Al Mug area at the border with Mauritania, coded to Aghouinite (Aousserd, Edd"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "MOZ",
@@ -21886,7 +23401,13 @@
         "actor2": "Civilians (Mozambique)",
         "notes": "On 29 July 2024, suspected UIR agents killed two people for unknown reasons in Pamunda neighborhood in Mocimboa da Praia (Mocimboa da Praia, Cabo Delgado). UIR members were accused of patrolling the a"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "GHA",
@@ -21988,7 +23509,13 @@
         "actor2": "Fulani Ethnic Militia (Ghana)",
         "notes": "On 8 July 2024, Konkomba pastoralists clashed with Fulani pastoralists in Kpandai (Kpandai, Northern). The fighting started when a Konkomba who was returning home after work was attacked and seriously"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "DZA",
@@ -22063,7 +23590,13 @@
         "actor2": "Civilians (Algeria)",
         "notes": "On 28 May 2024, an Algerian army drone targeted Saharawi and Mauritanian gold miners operating near Dakhla refugee camp (Tindouf, Tindouf). Between 10 and 12 people were killed."
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "IDN",
@@ -22184,7 +23717,13 @@
         "actor2": "Civilians (Indonesia)",
         "notes": "On 13 August 2024, TPNPB fired shots at a non-Papuan worker in the Kali Wabu area, Sugapa district (Intan Jaya regency, Central Papua province). The victim died from gunshot wounds to his right arm an"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "ECU",
@@ -22336,7 +23875,13 @@
         "actor2": "Civilians (Ecuador)",
         "notes": "On 10 July 2024, in La Libertad (Santa Elena), an unknown armed individuals on a motorbike shot and killed a man in a drive-by shooting in the UNE neighborhood. The victim was a lawyer who worked as a"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "NIC",
@@ -22456,7 +24001,13 @@
         "actor2": "Civilians (Nicaragua)",
         "notes": "On 16 July 2024, in Waslala, Costa Caribe Norte, un unidentified man shot and killed a city councilor and member of the Constitutionalist Liberal Party (PLC), who was working in a restaurant in the co"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "GIN",
@@ -22567,7 +24118,13 @@
         "actor2": "Civilians (Guinea)",
         "notes": "On 25 August 2024, an unidentified armed group opened fire on two miners, killing one and injuring the other in Toka, Siguiri commune, location coded to Siguiri (Siguiri-Centre, Kankan)."
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "GTM",
@@ -22687,7 +24244,13 @@
         "actor2": "Civilians (Guatemala)",
         "notes": "On 18 August 2024, in Camojallito, Huehuetenango, three unidentified men dressed as police officers approached a man (a local football coach) at a hotel and restaurant, and after briefly talking to hi"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "ISR",
@@ -23189,7 +24752,13 @@
         "actor2": "",
         "notes": "On 5 September 2024, Hezbollah forces in Lebanon fired one projectiles that fell in an open area near Elkosh (Akko, HaZafon). No casualties occurred."
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "CHL",
@@ -23322,7 +24891,13 @@
         "actor2": "Civilians (Chile)",
         "notes": "On 24 August 2024, near San Pedro (Metropolitana), suspected members of El Tren de Aragua Gang beat and stabbed to death an unidentified individual (coded as Chilean), whose body was thrown down a rav"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "BOL",
@@ -23402,7 +24977,13 @@
         "actor2": "Unidentified Communal Militia (Bolivia)",
         "notes": "On 29 May 2024, near Quillacollo (Cochabamba), a group of landowners, locals and settlers clashed with each other at Cerro Cota after a group of settlers tried to take over the territory which is loca"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "Dominican Republic",
@@ -23504,7 +25085,13 @@
         "actor2": "Civilians (Dominican Republic)",
         "notes": "On 8 July 2024, in Santiago de los Caballeros, Santiago, overnight, police forces shot and killed a man at his home in La Pina sector (Cienfuegos neighbourhood). The police version stated that there w"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "United States",
@@ -23580,7 +25167,13 @@
         "actor2": "Civilians (United States)",
         "notes": "On 30 June 2024, four private security guards held down a 42-year-old Black man and repeatedly hit his head with a baton outside of the Hyatt Regency in Milwaukee (Minnesota) until he died. The police"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "TZA",
@@ -23678,7 +25271,13 @@
         "actor2": "Civilians (Burundi)",
         "notes": "Around 4 September 2024 (as reported), a group of unidentified people attacked a group of four Burundian refugee carpenters on their way to an urban center in the region of Tanga outside Nduta Refugee"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "Costa Rica",
@@ -23758,7 +25357,13 @@
         "actor2": "Civilians (Costa Rica)",
         "notes": "On 16 August 2024, in Limon, Limon, at least three armed individuals entered a house, and shot and killed the lawyer of a local criminal leader. The victim was also a former member of the Judicial Inv"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "NAM",
@@ -23848,7 +25453,13 @@
         "actor2": "Civilians (Namibia)",
         "notes": "Around 4 May 2024 (as reported), the body of a transgender woman was found, with 32 stab wounds and private parts cut off in Windhoek (Windhoek East, Khomas), suspected to be killed in a hate crime in"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "TGO",
@@ -23923,7 +25534,13 @@
         "actor2": "Civilians (Togo)",
         "notes": "On 25 June 2024, two people were wounded by the explosion of an IED likely planted in the village of Lidole (Kpendjal, Savanes). A pastor who was traveling from Pogno to visit his congregation in Lido"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "SLV",
@@ -24025,7 +25642,13 @@
         "actor2": "MS-13: Mara Salvatrucha",
         "notes": "On 14 May 2024, in La Palma, Chalatenango, members of the military force clashed with members of the MS-13 and killed one gang member. The clash ensued after an attack against military forces who were"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "SEN",
@@ -24087,7 +25710,13 @@
         "actor2": "Civilians (Senegal)",
         "notes": "On 1 February 2024, overnight, an unidentified armed group attacked civilians on the Coumboutourou gold site, about 10 km of the village of Diakhaba, Saraya department, coded to Saraya (Saraya, Kedoug"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "SAU",
@@ -24128,7 +25757,13 @@
         "actor2": "Civilians (Sudan)",
         "notes": "On 30 January 2024, a member of the Sudanese Rapid Support forces fighting under the Saudi-led coalition (coded under ORH) shot soldiers of the same unit in Al Hasamah camp (Ahad Al Masarihah, Jizan) "
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "PRY",
@@ -24194,7 +25829,13 @@
         "actor2": "Unidentified Armed Group (Paraguay)",
         "notes": "On 19 August 2024, in Pedro Juan Caballero (Amambay), deputy Eulalio Gomez (ANR-PC) died in an armed clash with the police during a raid on his house within the framework of a drug trafficking investi"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "Belize",
@@ -24287,7 +25928,13 @@
         "actor2": "Police Forces of Belize (2020-)",
         "notes": "On 24 June 2024, in Roaring Creek, Cayo, a man opened fire against the local police station, and fled the scene after. None of the three policemen who were inside the station at the time were injured."
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "ZWE",
@@ -24353,7 +26000,13 @@
         "actor2": "Civilians (Zimbabwe)",
         "notes": "Around 8 August 2024 (as reported), police officers killed a man by tying him to a moving car and dragging him in Chinhoyi (Chinhoyi Urban, Mashonaland West). The police officers were part of the Neig"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "EGY",
@@ -24433,7 +26086,13 @@
         "actor2": "Civilians (Egypt)",
         "notes": "Around 12 August 2024 (as reported), a police officer tortured a civilian at a police station in Tanta (Tanta 1, Gharbia) following a traffic altercation. The victim later died."
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "NPL",
@@ -24517,7 +26176,13 @@
         "actor2": "Civilians (Nepal)",
         "notes": "On 29 August 2024, a socket bomb exploded, killing 2 children and injuring two others at Prangbung locality in Falelung rural municipality-5 (Panchthar district). The injured are undergoing treatment "
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "MYS",
@@ -24566,7 +26231,13 @@
         "actor2": "Police Forces of Malaysia (2022-)",
         "notes": "On 17 May 2024, an unidentified perpetrator carrying a machete and a gun attacked a police station in Ulu Tiram, Johor Baharu town (Kulai district, Johor state). Two police officers were killed, and a"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "MRT",
@@ -24641,7 +26312,13 @@
         "actor2": "Civilians (Mauritania)",
         "notes": "On 22 July 2024, Wagner mercenaries opened fire on a civilian vehicle they chased inside Mauritanian territory in Hodh Ech Chargui province. Location coded to Nema (Nema, Hodh Ech Chargi) with GP3. Th"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "ARG",
@@ -24695,7 +26372,13 @@
         "actor2": "Civilians (Argentina)",
         "notes": "On 3 September 2024, in Buenos Aires - Comuna 14 (Ciudad Autonoma de Buenos Aires), unknown individuals detonated a homemade bomb in a package sent to the headquarters of Sociedad Rural, a farmers' ad"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "CHN",
@@ -24779,7 +26462,13 @@
         "actor2": "",
         "notes": "On 7 March 2024, a man threw a petrol bomb at a city government office in Zhangjiagang city (Suzhou, Jiangsu), causing serious damage to its doors and windows. He confessed to his actions on a social "
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "CIV",
@@ -24841,7 +26530,13 @@
         "actor2": "Civilians (Ivory Coast)",
         "notes": "On 23 March 2024, a soldier shot and killed a phone box manager in the Sopim-Makora neighborhood of Yamoussoukro (Yamoussoukro, Yamoussoukro, Yamoussoukro) because the soldier had not received the 500"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "KAZ",
@@ -24903,7 +26598,13 @@
         "actor2": "Civilians (Kazakhstan)",
         "notes": "Around 20 May 2024 (week of), 47-year-old male resident was physically assaulted by policemen at the special detention facility in Atyrau city, which the victim's relatives argued resulted in his deat"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "TUN",
@@ -25005,7 +26706,13 @@
         "actor2": "Civilians (Tunisia)",
         "notes": "On 4 August 2024, a landmine planted by unidentified armed group exploded and killed a woman and injured another in Jebel Selloum (Kasserine Sud, Kasserine)."
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "RWA",
@@ -25063,7 +26770,13 @@
         "actor2": "Civilians (Rwanda)",
         "notes": "On 4 April 2024, an RDF officer shot and killed a 15-year-old boy in the village of Bugu (Rubavu, West). The reason for the attack is not known."
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "PNG",
@@ -25125,7 +26838,13 @@
         "actor2": "Civilians (Papua New Guinea)",
         "notes": "On 26 July 2024, police officers shot and killed a 19-year-old boy inside his house in Lae (Lae). Police said the boy committed crimes such as holdups, theft, and threats. The boy's father claimed tha"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "CUB",
@@ -25174,7 +26893,13 @@
         "actor2": "Civilians (Cuba)",
         "notes": "On 5 March 2024, in Habana, La Habana, police forces beat up and handcuffed a man whom they had arrested over aggression-related accusations against him made by a woman. The man died later that day du"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "Maldives",
@@ -25219,7 +26944,13 @@
         "actor2": "Civilians (Maldives)",
         "notes": "On 28 June 2024, police are suspected to have 'tortured' and killed a male prisoner in custody at Maafushi Prison in Maafushi (Male Atoll). Police deny this claim and have classified the cause of deat"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "LKA",
@@ -25286,7 +27017,13 @@
         "actor2": "Civilians (Sri Lanka)",
         "notes": "On 15 July 2024, an explosion occurred in a house in Poonochimuna village in Kattankudy town (Batticaloa, Eastern). Investigations by the police and special task forces revealed a bomb attack on the r"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "BLR",
@@ -25352,7 +27089,13 @@
         "actor2": "Civilians (India)",
         "notes": "On 30 July 2024, according to the Belarusian police, Latvian border guards beat up 2 Indian nationals at the Latvia-Belarus border in the Verkhnedvinskiy district and pushed them to the Belarusian sid"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "DJI",
@@ -25393,7 +27136,13 @@
         "actor2": "Civilians (Djibouti)",
         "notes": "On 3 March 2024, a soldier killed a man near Torabora in Djibouti (Djibouti, Djibouti) who was transporting contraband cigarettes."
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "Bosnia and Herzegovina",
@@ -25464,7 +27213,13 @@
         "actor2": "Police Forces of Bosnia and Herzegovina (2018-)",
         "notes": "On 19 August 2024, an unidentified armed individual attacked civilians and police by shooting and throwing bombs and grenades at residents and police officers from an abandoned house in Zovi Do (coded"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "PAN",
@@ -25540,7 +27295,13 @@
         "actor2": "Police Forces of Panama (2019-)",
         "notes": "On 25 June 2024, in the province of Darien (coded to La Palma), armed individuals engaged in a shootout with the National Border Service (Senafront) in the Turquesa River during a reconnaissance patro"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "Comoros",
@@ -25598,7 +27359,13 @@
         "actor2": "",
         "notes": "On 20 May 2024, a loud explosion was heard on the island of Anjouan (coded to Mutsamudu (Mutsamudu, Anjouan) ahead of the presidential inauguration. No further information. Casualties unknown."
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "Guyana",
@@ -25639,7 +27406,13 @@
         "actor2": "Civilians (Guyana)",
         "notes": "On 7 August 2024, in Georgetown, Demerara-Mahaica, overnight, a male lawyer was stabbed to death inside his car, where the body was found hours later. The victim was in the driver's seat of his parked"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "ALB",
@@ -25697,7 +27470,13 @@
         "actor2": "Civilians (Albania)",
         "notes": "On 13 May 2024, unidentified shooters who the police later tied to the Democratic Party of Albania shot and killed an off-duty policeman belonging to the special forces in his hometown of Baltez. Whil"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "eSwatini",
@@ -25742,7 +27521,13 @@
         "actor2": "Civilians (eSwatini)",
         "notes": "On 11 May 2024, the body of an NNLC member was found in Goboyane-Nkilongo in Big Bend (Nkilongo, Lubombo), suspected of being killed by soldiers who abducted him the day before during an unrest (no fu"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "UZB",
@@ -25787,7 +27572,13 @@
         "actor2": "Civilians (Uzbekistan)",
         "notes": "On 19 June 2024, police officers physically assaulted a 43-year-old male in custody at the city police department in Bekabad city of Tashkent region, resulting in victim's death. The police launched a"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "LBR",
@@ -25828,7 +27619,13 @@
         "actor2": "Civilians (Liberia)",
         "notes": "On 17 April 2024, seven police officers beat and killed a civilian near 72nd Junction in Paynesville (Monrovia, Greater Monrovia, Montserrado). The victim died on his way to the hospital. Another civi"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "Saint Lucia",
@@ -25869,7 +27666,13 @@
         "actor2": "Police Forces of Saint Lucia (2016-)",
         "notes": "On 7 June 2024, in Vieux Fort, Vieux Fort, two armed men entered the house of a police officer and engaged in an armed clash with him. One of the attackers was shot and killed, while the other one man"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "Antigua and Barbuda",
@@ -25910,7 +27713,13 @@
         "actor2": "Civilians (Antigua and Barbuda)",
         "notes": "Around 1 May 2024 (as reported), in Saint John's, Saint John, a prison officer beat up an inmate during a brawl at the His Majesty's Prison. The inmate got paralysed and severely injured as a result o"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "Serbia",
@@ -25959,7 +27768,13 @@
         "actor2": "Police Forces of Serbia (2017-)",
         "notes": "On 18 August 2024, Special Anti-terrorist Unit (SAJ) officers shot and killed a member of the Wahhabi movement in the forest of Hotkovo village near the border with Kosovo (coded to Novi Pazar) during"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "VNM",
@@ -26000,7 +27815,13 @@
         "actor2": "Civilians (Vietnam)",
         "notes": "Around 2 May 2024 (between 27 April - 8 May), pro-democracy defender Nguyen Van Dung (aka Dung Aduku), was found dead in the Hong River in Ba Vi (Hanoi) after going missing following an interrogation "
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "Greece",
@@ -26106,7 +27927,13 @@
         "actor2": "",
         "notes": "On 19 August 2024, early in the morning, 2 unidentified assailants (likely far-left), riding a motorcycle without a license plate, activated a homemade incendiary device, which consisted of 2 gas cani"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "AZE",
@@ -26460,7 +28287,13 @@
         "actor2": "Military Forces of Azerbaijan (2003-)",
         "notes": "On 4 September 2024, Armenian forces fired in the direction of Azerbaijani forces in the Ordubad region, Nakhchivan Autonomous Republic (coded to Ordubad). The Ministry of Defense of Armenia refuted t"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "ARM",
@@ -26648,7 +28481,13 @@
         "actor2": "Civilians (Armenia)",
         "notes": "On 24 July 2024, an Armenian civilian was hit by a landmine on his tractor in Kirants, Tavush region, while conducting engineering works on the Armenia-Azerbaijan border, as a result of which he recei"
       }
-    ]
+    ],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   },
   {
     "id": "GEO",
@@ -26679,6 +28518,12 @@
         "count": 13
       }
     ],
-    "timeline": []
+    "timeline": [],
+    "articles": [],
+    "economicImpact": {
+      "armsEmbargo": false,
+      "financialSanctions": false,
+      "travelBans": false
+    }
   }
 ]

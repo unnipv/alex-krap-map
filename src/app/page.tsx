@@ -43,6 +43,8 @@ interface ConflictSummary {
   eventBreakdown: { type: string; count: number }[];
   topActors: { name: string; count: number }[];
   timeline: TimelineEvent[];
+  articles: any[];
+  economicImpact: any;
 }
 
 const severityLabels: Record<number, string> = {
@@ -95,12 +97,13 @@ export default function Home() {
   }, [severityData, conflicts, regionFilter, typeFilter, severityFilter, searchQuery]);
 
   useEffect(() => {
-    fetch(assetPath("/data/conflicts.json"))
+    const timestamp = new Date().getTime();
+    fetch(assetPath(`/data/conflicts.json?v=${timestamp}`))
       .then((r) => r.json())
       .then(setConflicts)
       .catch(() => { });
 
-    fetch(assetPath("/data/severity.json"))
+    fetch(assetPath(`/data/severity.json?v=${timestamp}`))
       .then((r) => r.json())
       .then(setSeverityData)
       .catch(() => { });
@@ -501,20 +504,20 @@ function TimelineTab({ conflict }: { conflict: ConflictSummary }) {
 }
 
 function EconomicTab({ conflict }: { conflict: ConflictSummary }) {
-  // Placeholder data styled for the UI
+  const econ = conflict.economicImpact;
+
+  // Placeholder description if none exists
+  const desc = econ?.description || `No major international sanctions detected for ${conflict.name}. Localized trade disruptions may still occur due to ${conflict.type.toLowerCase()}.`;
+
   return (
     <div className="flex flex-col gap-4">
-      <div className="border border-dashed border-[var(--color-border-subtle)] p-4 text-center">
-        <div className="font-mono text-[10px] text-[var(--color-text-secondary)]">
-          [LIVE ECONOMIC DATA STREAM DISCONNECTED - SHOWING CACHED REPORT]
-        </div>
-      </div>
-
       <div className="border border-[var(--color-border-subtle)] bg-[var(--color-bg-secondary)] p-4">
         <div className="font-mono text-[10px] text-[var(--color-text-label)] uppercase tracking-widest mb-2">[ECONOMIC_IMPACT_ASSESSMENT]</div>
-        <div className="text-2xl font-bold text-[var(--color-accent-amber)] font-mono mb-2">CRITICAL</div>
+        <div className={`text-2xl font-bold font-mono mb-2 ${econ?.financialSanctions || econ?.armsEmbargo ? 'text-[var(--color-accent-amber)]' : 'text-[var(--color-accent-green)]'}`}>
+          {econ?.financialSanctions || econ?.armsEmbargo ? 'CRITICAL' : 'STABLE'}
+        </div>
         <div className="font-mono text-xs text-[var(--color-text-secondary)] leading-relaxed">
-          Significant supply chain disruptions detected in {conflict.region}. Trade routes and local markets are experiencing severe volatility due to ongoing {conflict.type.toLowerCase()}.
+          {desc}
         </div>
       </div>
 
@@ -522,15 +525,21 @@ function EconomicTab({ conflict }: { conflict: ConflictSummary }) {
         <div className="font-mono text-[10px] text-[var(--color-text-label)] uppercase tracking-widest mb-3">[SANCTIONS_&_EMBARGOES]</div>
         <div className="flex justify-between font-mono text-xs text-[var(--color-text-primary)] py-2 border-b border-[var(--color-border-subtle)]">
           <span>ARMS EMBARGO</span>
-          <span className="text-[var(--color-accent-amber)] font-bold">ACTIVE</span>
+          <span className={`font-bold ${econ?.armsEmbargo ? 'text-[var(--color-accent-amber)]' : 'text-[var(--color-text-secondary)]'}`}>
+            {econ?.armsEmbargo ? 'ACTIVE' : 'NONE'}
+          </span>
         </div>
         <div className="flex justify-between font-mono text-xs text-[var(--color-text-primary)] py-2 border-b border-[var(--color-border-subtle)]">
           <span>FINANCIAL SANCTIONS</span>
-          <span className="text-[var(--color-accent-amber)] font-bold">PARTIAL</span>
+          <span className={`font-bold ${econ?.financialSanctions ? 'text-[var(--color-accent-amber)]' : 'text-[var(--color-text-secondary)]'}`}>
+            {econ?.financialSanctions ? 'ACTIVE' : 'NONE'}
+          </span>
         </div>
         <div className="flex justify-between font-mono text-xs text-[var(--color-text-primary)] py-2">
           <span>TRAVEL BANS (KEY FIGURES)</span>
-          <span className="text-[var(--color-accent-amber)] font-bold">ACTIVE</span>
+          <span className={`font-bold ${econ?.travelBans ? 'text-[var(--color-accent-amber)]' : 'text-[var(--color-text-secondary)]'}`}>
+            {econ?.travelBans ? 'ACTIVE' : 'NONE'}
+          </span>
         </div>
       </div>
     </div>
@@ -538,32 +547,52 @@ function EconomicTab({ conflict }: { conflict: ConflictSummary }) {
 }
 
 function NewsTab({ conflict }: { conflict: ConflictSummary }) {
+  const articles = conflict.articles || [];
+
   return (
     <div className="flex flex-col gap-4">
-      <div className="border border-[var(--color-border-subtle)] bg-[var(--color-bg-secondary)] p-4">
-        <div className="font-mono text-[10px] text-[var(--color-text-label)] uppercase tracking-widest mb-2">[MEDIA_MONITORING_FEED]</div>
-
-        <div className="mt-4 flex flex-col gap-3">
-          {[1, 2, 3].map((i) => (
-            <div key={i} className="border-l-2 border-[var(--color-accent-blue)] pl-3 py-1">
-              <div className="flex justify-between items-start mb-1">
-                <span className="font-mono text-[10px] text-[var(--color-text-label)]">GLOBAL INTEL NETWORK</span>
-                <span className="font-mono text-[10px] text-[var(--color-text-secondary)]">- {i} HOURS AGO</span>
-              </div>
-              <div className="font-mono text-xs text-[var(--color-text-primary)] mb-1">
-                Emerging reports of escalated {conflict.type.toLowerCase()} near key infrastructure points in {conflict.name}.
-              </div>
-              <div className="font-mono text-[10px] text-[var(--color-accent-amber)]">RELIABILITY: HIGH</div>
-            </div>
-          ))}
+      {articles.length === 0 ? (
+        <div className="border border-dashed border-[var(--color-border-subtle)] p-4 text-center">
+          <div className="font-mono text-[10px] text-[var(--color-text-secondary)]">
+            [NO RECENT INTEL AVAILABLE FOR THIS SECTOR]
+          </div>
         </div>
-      </div>
+      ) : (
+        <div className="border border-[var(--color-border-subtle)] bg-[var(--color-bg-secondary)] p-4">
+          <div className="font-mono text-[10px] text-[var(--color-text-label)] uppercase tracking-widest mb-2">[MEDIA_MONITORING_FEED]</div>
 
-      <div className="border border-dashed border-[var(--color-border-subtle)] p-4 text-center">
-        <div className="font-mono text-[10px] text-[var(--color-text-secondary)]">
-          [LIVE GDELT DATA STREAM DISCONNECTED - SHOWING CACHED REPORT]
+          <div className="mt-4 flex flex-col gap-3">
+            {articles.map((article, i) => {
+              const pubDate = new Date(article.publishedAt);
+              const now = new Date();
+              const hoursAgo = Math.round((now.getTime() - pubDate.getTime()) / (1000 * 60 * 60));
+              const timeDisplay = hoursAgo < 24 ? `${hoursAgo} HOURS AGO` : pubDate.toLocaleDateString();
+
+              return (
+                <a
+                  key={i}
+                  href={article.url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block border-l-2 border-[var(--color-accent-blue)] pl-3 py-1 hover:border-[var(--color-accent-amber)] hover:bg-[var(--color-bg-tertiary)] transition-colors cursor-pointer"
+                >
+                  <div className="flex justify-between items-start mb-1 gap-2">
+                    <span className="font-mono text-[10px] text-[var(--color-text-label)] uppercase truncate">
+                      {article.source?.name || "GLOBAL INTEL"}
+                    </span>
+                    <span className="font-mono text-[10px] text-[var(--color-text-secondary)] whitespace-nowrap">
+                      - {timeDisplay}
+                    </span>
+                  </div>
+                  <div className="font-mono text-xs text-[var(--color-text-primary)] mb-1 line-clamp-2">
+                    {article.title}
+                  </div>
+                </a>
+              );
+            })}
+          </div>
         </div>
-      </div>
+      )}
     </div>
   );
 }

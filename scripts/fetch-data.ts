@@ -2,7 +2,12 @@ import fs from 'fs';
 import path from 'path';
 import * as dotenv from 'dotenv';
 import { fetchRecentEvents } from '../src/lib/data/acled';
-import { ConflictEvent, Region } from '../src/lib/types';
+import { fetchConflictNews } from '../src/lib/data/gnews';
+import { getSanctionsForCountry } from '../src/lib/data/opensanctions';
+import { ConflictEvent, Region, NewsArticle } from '../src/lib/types';
+
+// Delay helper to avoid hitting API rate limits
+const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
 // Load environment variables
 dotenv.config({ path: path.resolve(__dirname, '../.env.local') });
@@ -151,7 +156,7 @@ async function run() {
             else if (stats.eventTypes["Explosions/Remote violence"]) conflictType = "Insurgency";
             else if (stats.eventTypes["Strategic developments"]) conflictType = "Tensions";
 
-            return {
+            return Object.assign({
                 id: countryToISO3[country] || country,
                 name: `${country}`,
                 countries: [country],
@@ -165,9 +170,28 @@ async function run() {
                 eventBreakdown,
                 topActors,
                 timeline: stats.timeline.slice(-50), // Last 50 events for the timeline
-            };
+            }, { articles: [] as NewsArticle[], economicImpact: null as any }); // Initialize empty properties that we'll populate below
         })
         .sort((a, b) => b.totalFatalities - a.totalFatalities);
+
+    // Fetch sanctions data for all tracked conflicts
+    console.log("Mapping OpenSanctions economic impact profiles...");
+    for (const conflict of conflicts) {
+        // Map the ISO code via our static adapter
+        conflict.economicImpact = await getSanctionsForCountry(conflict.id);
+    }
+
+    // Fetch news for the top 15 deadliest conflicts (to stay well within 100 req/day limit)
+    console.log("Fetching live GNews articles for top conflicts...");
+    const topConflicts = conflicts.slice(0, 15);
+    for (const conflict of topConflicts) {
+        console.log(`  - Fetching news for: ${conflict.name}`);
+        const query = `"${conflict.name}" AND (conflict OR war OR violence OR military OR crisis)`;
+        const articles = await fetchConflictNews(query, 5);
+        conflict.articles = articles;
+        // Wait 1.5 seconds between requests to respect max 1 req/sec limit
+        await delay(1500);
+    }
 
     // Global stats
     const totalFatalities = events.reduce((sum, e) => sum + e.fatalities, 0);
