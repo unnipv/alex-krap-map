@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useMemo } from "react";
+import { useState, useEffect, useMemo, useCallback } from "react";
 import dynamic from "next/dynamic";
 import StatsBar from "@/components/dashboard/StatsBar";
 import { assetPath } from "@/lib/basePath";
@@ -66,6 +66,7 @@ export default function Home() {
   const [selectedConflict, setSelectedConflict] =
     useState<ConflictSummary | null>(null);
   const [activeTab, setActiveTab] = useState<string>("OVERVIEW");
+  const [mapWidth, setMapWidth] = useState(50); // percentage
 
   const [severityData, setSeverityData] = useState<Record<string, number>>({});
 
@@ -113,6 +114,23 @@ export default function Home() {
     }
   };
 
+  const startResizing = useCallback(() => {
+    const handleMouseMove = (e: MouseEvent) => {
+      const newWidth = (e.clientX / window.innerWidth) * 100;
+      if (newWidth > 20 && newWidth < 80) {
+        setMapWidth(newWidth);
+      }
+    };
+    const handleMouseUp = () => {
+      document.removeEventListener("mousemove", handleMouseMove);
+      document.removeEventListener("mouseup", handleMouseUp);
+      // Let MapLibre know the container resized
+      window.dispatchEvent(new Event("resize"));
+    };
+    document.addEventListener("mousemove", handleMouseMove);
+    document.addEventListener("mouseup", handleMouseUp);
+  }, []);
+
   const tabs = ["OVERVIEW", "TIMELINE", "CASUALTIES", "ECONOMIC", "NEWS"];
 
   return (
@@ -130,66 +148,82 @@ export default function Home() {
         <StatsBar />
       </header>
 
+      {/* Filter Bar */}
+      <div className="flex flex-wrap gap-4 items-center px-4 py-2 border-b border-[var(--color-border-subtle)] bg-[var(--color-bg-secondary)] shrink-0 z-10 w-full overflow-x-auto">
+        <div className="font-mono text-[10px] text-[var(--color-text-secondary)] uppercase">FILTERS</div>
+        <input
+          type="text"
+          placeholder="SEARCH CONFLICTS..."
+          value={searchQuery}
+          onChange={(e) => setSearchQuery(e.target.value)}
+          className="w-48 bg-[var(--color-bg-primary)] border border-[var(--color-border-subtle)] px-3 py-1.5 text-xs font-mono text-[var(--color-text-primary)] focus:outline-none focus:border-[var(--color-accent-amber)] transition-colors"
+        />
+        <select
+          value={regionFilter}
+          onChange={(e) => setRegionFilter(e.target.value)}
+          className="w-36 bg-[var(--color-bg-primary)] border border-[var(--color-border-subtle)] px-2 py-1.5 text-xs font-mono text-[var(--color-text-primary)] focus:outline-none focus:border-[var(--color-accent-amber)] appearance-none"
+        >
+          <option value="ALL">ALL REGIONS</option>
+          <option value="Africa">AFRICA</option>
+          <option value="Middle East">MIDDLE EAST</option>
+          <option value="Asia">ASIA</option>
+          <option value="Europe">EUROPE</option>
+          <option value="Americas">AMERICAS</option>
+        </select>
+        <select
+          value={severityFilter}
+          onChange={(e) => setSeverityFilter(e.target.value === "ALL" ? "ALL" : Number(e.target.value))}
+          className="w-40 bg-[var(--color-bg-primary)] border border-[var(--color-border-subtle)] px-2 py-1.5 text-xs font-mono text-[var(--color-text-primary)] focus:outline-none focus:border-[var(--color-accent-amber)] appearance-none"
+        >
+          <option value="ALL">ALL SEVERITY</option>
+          <option value="5">LVL 5: CRISIS</option>
+          <option value="4">LVL 4: ACTIVE</option>
+          <option value="3">LVL 3: ESCALATION</option>
+          <option value="2">LVL 2: TENSIONS</option>
+          <option value="1">LVL 1: UNSTABLE</option>
+        </select>
+        <select
+          value={typeFilter}
+          onChange={(e) => setTypeFilter(e.target.value)}
+          className="w-48 bg-[var(--color-bg-primary)] border border-[var(--color-border-subtle)] px-2 py-1.5 text-xs font-mono text-[var(--color-text-primary)] focus:outline-none focus:border-[var(--color-accent-amber)] appearance-none"
+        >
+          <option value="ALL">ALL CONFLICT TYPES</option>
+          <option value="Armed Conflict">ARMED CONFLICT</option>
+          <option value="Political Violence">POLITICAL VIOLENCE</option>
+          <option value="Protests/Riots">PROTESTS/RIOTS</option>
+          <option value="Insurgency">INSURGENCY</option>
+        </select>
+        <div className="flex-1"></div>
+        <div className="font-mono text-[10px] text-[var(--color-text-secondary)] whitespace-nowrap">
+          {Object.keys(filteredSeverityData).length} CONFLICTS
+        </div>
+      </div>
+
       {/* Main Content */}
       <div className="flex-1 flex overflow-hidden" style={{ minHeight: 0 }}>
         {/* Map Panel */}
         <div
-          className={`transition-all duration-500 ${selectedConflict ? "w-1/2" : "w-full"} relative border-r border-[var(--color-border-subtle)] h-full`}
+          className="relative h-full"
+          style={{ width: selectedConflict ? `${mapWidth}%` : "100%" }}
         >
-          {/* Filter Bar HUD */}
-          <div className="absolute top-4 right-4 flex flex-col gap-2 z-10 w-64">
-            <input
-              type="text"
-              placeholder="SEARCH CONFLICTS..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-              className="w-full bg-[var(--color-bg-secondary)] border border-[var(--color-border-subtle)] px-3 py-2 text-xs font-mono text-[var(--color-text-primary)] focus:outline-none focus:border-[var(--color-accent-amber)] transition-colors"
-            />
-            <div className="flex gap-2">
-              <select
-                value={regionFilter}
-                onChange={(e) => setRegionFilter(e.target.value)}
-                className="flex-1 bg-[var(--color-bg-secondary)] border border-[var(--color-border-subtle)] px-2 py-1.5 text-[10px] font-mono text-[var(--color-text-primary)] focus:outline-none focus:border-[var(--color-accent-amber)] appearance-none"
-              >
-                <option value="ALL">ALL REGIONS</option>
-                <option value="Africa">AFRICA</option>
-                <option value="Middle East">MIDDLE EAST</option>
-                <option value="Asia">ASIA</option>
-                <option value="Europe">EUROPE</option>
-                <option value="Americas">AMERICAS</option>
-              </select>
-              <select
-                value={severityFilter}
-                onChange={(e) => setSeverityFilter(e.target.value === "ALL" ? "ALL" : Number(e.target.value))}
-                className="flex-1 bg-[var(--color-bg-secondary)] border border-[var(--color-border-subtle)] px-2 py-1.5 text-[10px] font-mono text-[var(--color-text-primary)] focus:outline-none focus:border-[var(--color-accent-amber)] appearance-none"
-              >
-                <option value="ALL">ALL SEVERITY</option>
-                <option value="5">LVL 5: CRISIS</option>
-                <option value="4">LVL 4: ACTIVE</option>
-                <option value="3">LVL 3: ESCALATION</option>
-                <option value="2">LVL 2: TENSIONS</option>
-                <option value="1">LVL 1: UNSTABLE</option>
-              </select>
-            </div>
-            <select
-              value={typeFilter}
-              onChange={(e) => setTypeFilter(e.target.value)}
-              className="w-full bg-[var(--color-bg-secondary)] border border-[var(--color-border-subtle)] px-2 py-1.5 text-[10px] font-mono text-[var(--color-text-primary)] focus:outline-none focus:border-[var(--color-accent-amber)] appearance-none"
-            >
-              <option value="ALL">ALL CONFLICT TYPES</option>
-              <option value="Armed Conflict">ARMED CONFLICT</option>
-              <option value="Political Violence">POLITICAL VIOLENCE</option>
-              <option value="Protests/Riots">PROTESTS/RIOTS</option>
-              <option value="Insurgency">INSURGENCY</option>
-            </select>
-          </div>
-
           <WorldMap onCountryClick={handleCountryClick} severityData={filteredSeverityData} />
         </div>
 
+        {/* Resizer */}
+        {selectedConflict && (
+          <div
+            className="w-1 bg-[var(--color-border-subtle)] hover:bg-[var(--color-accent-amber)] cursor-col-resize transition-colors shrink-0 z-20"
+            onMouseDown={startResizing}
+            title="Drag to resize"
+          />
+        )}
+
         {/* Conflict Dossier Panel */}
         {selectedConflict && (
-          <div className="w-1/2 flex flex-col bg-[var(--color-bg-primary)] overflow-hidden">
+          <div
+            className="flex flex-col bg-[var(--color-bg-primary)] overflow-hidden"
+            style={{ width: `calc(${100 - mapWidth}% - 4px)` }}
+          >
             {/* Dossier Header */}
             <div className="px-4 py-3 border-b border-[var(--color-border-subtle)] bg-[var(--color-bg-secondary)]">
               <div className="flex justify-between items-start">
