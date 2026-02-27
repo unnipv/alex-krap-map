@@ -504,6 +504,12 @@ function EconomicTab({ conflict }: { conflict: ConflictSummary }) {
   // Placeholder data styled for the UI
   return (
     <div className="flex flex-col gap-4">
+      {/* Disclaimer Banner */}
+      <div className="bg-[var(--color-accent-amber)]/20 border border-[var(--color-accent-amber)] text-[var(--color-accent-amber)] px-3 py-2 font-mono text-[10px] uppercase flex justify-between items-center">
+        <span className="font-bold">⚠ SIMULATED DATA</span>
+        <span className="opacity-80">LIVE INTEGRATION PENDING</span>
+      </div>
+
       <div className="border border-[var(--color-border-subtle)] bg-[var(--color-bg-secondary)] p-4">
         <div className="font-mono text-[10px] text-[var(--color-text-label)] uppercase tracking-widest mb-2">[ECONOMIC_IMPACT_ASSESSMENT]</div>
         <div className="text-2xl font-bold text-[var(--color-accent-amber)] font-mono mb-2">CRITICAL</div>
