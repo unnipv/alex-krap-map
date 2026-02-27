@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import dynamic from "next/dynamic";
 import StatsBar from "@/components/dashboard/StatsBar";
+import { assetPath } from "@/lib/basePath";
 
 const WorldMap = dynamic(() => import("@/components/map/WorldMap"), {
   ssr: false,
@@ -67,7 +68,7 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState<string>("OVERVIEW");
 
   useEffect(() => {
-    fetch("/data/conflicts.json")
+    fetch(assetPath("/data/conflicts.json"))
       .then((r) => r.json())
       .then(setConflicts)
       .catch(() => { });

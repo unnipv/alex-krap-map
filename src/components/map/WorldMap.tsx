@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState, useCallback } from "react";
 import maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
+import { assetPath } from "@/lib/basePath";
 
 // Colors mapping to our thermal severity scale
 const severityColors: Record<number, string> = {
@@ -27,7 +28,7 @@ export default function WorldMap({ onCountryClick }: WorldMapProps) {
 
     // Load severity data from pipeline output
     useEffect(() => {
-        fetch("/data/severity.json")
+        fetch(assetPath("/data/severity.json"))
             .then((r) => r.json())
             .then((data) => {
                 severityDataRef.current = data;
@@ -106,7 +107,7 @@ export default function WorldMap({ onCountryClick }: WorldMapProps) {
 
             map.current.addSource("countries", {
                 type: "geojson",
-                data: "/data/countries.geojson",
+                data: assetPath("/data/countries.geojson"),
                 promoteId: "ISO3166-1-Alpha-3",
             });
 

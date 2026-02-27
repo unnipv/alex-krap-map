@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { assetPath } from "@/lib/basePath";
 
 interface Stats {
     activeConflicts: number;
@@ -15,7 +16,7 @@ export default function StatsBar() {
     const [stats, setStats] = useState<Stats | null>(null);
 
     useEffect(() => {
-        fetch("/data/stats.json")
+        fetch(assetPath("/data/stats.json"))
             .then((r) => r.json())
             .then(setStats)
             .catch(() => { });
