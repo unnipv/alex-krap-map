@@ -53,12 +53,6 @@
   }
 
   .scanlines {
-    background: linear-gradient(to bottom,
-        rgba(255, 255, 255, 0),
-        rgba(255, 255, 255, 0) 50%,
-        rgba(0, 0, 0, 0.1) 50%,
-        rgba(0, 0, 0, 0.1));
-    background-size: 100% 4px;
     position: fixed;
     top: 0;
     left: 0;
@@ -66,17 +60,57 @@
     bottom: 0;
     pointer-events: none;
     z-index: 50;
-    opacity: 0.3;
+    background: linear-gradient(to bottom,
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0) 50%,
+        rgba(0, 0, 0, 0.05) 50%,
+        rgba(0, 0, 0, 0.05));
+    background-size: 100% 4px;
+    /* Soft corner vignette for CRT look */
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.3);
+  }
+
+  .scanlines::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to bottom,
+        rgba(18, 16, 16, 0) 50%,
+        rgba(0, 0, 0, 0.05) 50%);
+    background-size: 100% 4px;
+    z-index: 51;
+    pointer-events: none;
+  }
+
+  /* Moving vertical scan bar */
+  .scanlines::after {
+    content: "";
+    position: absolute;
+    top: -100px;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: linear-gradient(to bottom,
+        transparent 0%,
+        rgba(255, 255, 255, 0.02) 50%,
+        transparent 100%);
+    animation: scanbar 8s linear infinite;
+    z-index: 52;
+    pointer-events: none;
   }
 }
 
-@keyframes scanline {
+@keyframes scanbar {
   0% {
     transform: translateY(-100%);
   }
 
   100% {
-    transform: translateY(100%);
+    transform: translateY(120vh);
   }
 }
 

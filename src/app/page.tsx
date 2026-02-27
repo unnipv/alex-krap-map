@@ -504,10 +504,10 @@ function EconomicTab({ conflict }: { conflict: ConflictSummary }) {
   // Placeholder data styled for the UI
   return (
     <div className="flex flex-col gap-4">
-      {/* Disclaimer Banner */}
-      <div className="bg-[var(--color-accent-amber)]/20 border border-[var(--color-accent-amber)] text-[var(--color-accent-amber)] px-3 py-2 font-mono text-[10px] uppercase flex justify-between items-center">
-        <span className="font-bold">⚠ SIMULATED DATA</span>
-        <span className="opacity-80">LIVE INTEGRATION PENDING</span>
+      <div className="border border-dashed border-[var(--color-border-subtle)] p-4 text-center">
+        <div className="font-mono text-[10px] text-[var(--color-text-secondary)]">
+          [LIVE ECONOMIC DATA STREAM DISCONNECTED - SHOWING CACHED REPORT]
+        </div>
       </div>
 
       <div className="border border-[var(--color-border-subtle)] bg-[var(--color-bg-secondary)] p-4">
