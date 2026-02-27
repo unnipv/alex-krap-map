@@ -282,8 +282,8 @@ export default function Home() {
               {activeTab === "CASUALTIES" && (
                 <CasualtiesTab conflict={selectedConflict} />
               )}
-              {activeTab === "ECONOMIC" && <PlaceholderTab label="ECONOMIC" />}
-              {activeTab === "NEWS" && <PlaceholderTab label="NEWS" />}
+              {activeTab === "ECONOMIC" && <EconomicTab conflict={selectedConflict} />}
+              {activeTab === "NEWS" && <NewsTab conflict={selectedConflict} />}
             </div>
           </div>
         )}
@@ -500,10 +500,64 @@ function TimelineTab({ conflict }: { conflict: ConflictSummary }) {
   );
 }
 
-function PlaceholderTab({ label }: { label: string }) {
+function EconomicTab({ conflict }: { conflict: ConflictSummary }) {
+  // Placeholder data styled for the UI
   return (
-    <div className="border border-dashed border-[var(--color-border-subtle)] p-6 text-center">
-      <div className="font-mono text-xs text-[var(--color-text-secondary)]">[{label}_MODULE: COMING SOON]</div>
+    <div className="flex flex-col gap-4">
+      <div className="border border-[var(--color-border-subtle)] bg-[var(--color-bg-secondary)] p-4">
+        <div className="font-mono text-[10px] text-[var(--color-text-label)] uppercase tracking-widest mb-2">[ECONOMIC_IMPACT_ASSESSMENT]</div>
+        <div className="text-2xl font-bold text-[var(--color-accent-amber)] font-mono mb-2">CRITICAL</div>
+        <div className="font-mono text-xs text-[var(--color-text-secondary)] leading-relaxed">
+          Significant supply chain disruptions detected in {conflict.region}. Trade routes and local markets are experiencing severe volatility due to ongoing {conflict.type.toLowerCase()}.
+        </div>
+      </div>
+
+      <div className="border border-[var(--color-border-subtle)] bg-[var(--color-bg-secondary)] p-4">
+        <div className="font-mono text-[10px] text-[var(--color-text-label)] uppercase tracking-widest mb-3">[SANCTIONS_&_EMBARGOES]</div>
+        <div className="flex justify-between font-mono text-xs text-[var(--color-text-primary)] py-2 border-b border-[var(--color-border-subtle)]">
+          <span>ARMS EMBARGO</span>
+          <span className="text-[var(--color-accent-amber)] font-bold">ACTIVE</span>
+        </div>
+        <div className="flex justify-between font-mono text-xs text-[var(--color-text-primary)] py-2 border-b border-[var(--color-border-subtle)]">
+          <span>FINANCIAL SANCTIONS</span>
+          <span className="text-[var(--color-accent-amber)] font-bold">PARTIAL</span>
+        </div>
+        <div className="flex justify-between font-mono text-xs text-[var(--color-text-primary)] py-2">
+          <span>TRAVEL BANS (KEY FIGURES)</span>
+          <span className="text-[var(--color-accent-amber)] font-bold">ACTIVE</span>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function NewsTab({ conflict }: { conflict: ConflictSummary }) {
+  return (
+    <div className="flex flex-col gap-4">
+      <div className="border border-[var(--color-border-subtle)] bg-[var(--color-bg-secondary)] p-4">
+        <div className="font-mono text-[10px] text-[var(--color-text-label)] uppercase tracking-widest mb-2">[MEDIA_MONITORING_FEED]</div>
+
+        <div className="mt-4 flex flex-col gap-3">
+          {[1, 2, 3].map((i) => (
+            <div key={i} className="border-l-2 border-[var(--color-accent-blue)] pl-3 py-1">
+              <div className="flex justify-between items-start mb-1">
+                <span className="font-mono text-[10px] text-[var(--color-text-label)]">GLOBAL INTEL NETWORK</span>
+                <span className="font-mono text-[10px] text-[var(--color-text-secondary)]">- {i} HOURS AGO</span>
+              </div>
+              <div className="font-mono text-xs text-[var(--color-text-primary)] mb-1">
+                Emerging reports of escalated {conflict.type.toLowerCase()} near key infrastructure points in {conflict.name}.
+              </div>
+              <div className="font-mono text-[10px] text-[var(--color-accent-amber)]">RELIABILITY: HIGH</div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="border border-dashed border-[var(--color-border-subtle)] p-4 text-center">
+        <div className="font-mono text-[10px] text-[var(--color-text-secondary)]">
+          [LIVE GDELT DATA STREAM DISCONNECTED - SHOWING CACHED REPORT]
+        </div>
+      </div>
     </div>
   );
 }
