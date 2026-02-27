@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import dynamic from "next/dynamic";
 import StatsBar from "@/components/dashboard/StatsBar";
 import { assetPath } from "@/lib/basePath";
@@ -67,10 +67,41 @@ export default function Home() {
     useState<ConflictSummary | null>(null);
   const [activeTab, setActiveTab] = useState<string>("OVERVIEW");
 
+  const [severityData, setSeverityData] = useState<Record<string, number>>({});
+
+  // Filters
+  const [searchQuery, setSearchQuery] = useState("");
+  const [regionFilter, setRegionFilter] = useState("ALL");
+  const [typeFilter, setTypeFilter] = useState("ALL");
+  const [severityFilter, setSeverityFilter] = useState<number | "ALL">("ALL");
+
+  const filteredSeverityData = useMemo(() => {
+    const filtered: Record<string, number> = {};
+    const query = searchQuery.toLowerCase();
+
+    for (const [iso, severity] of Object.entries(severityData)) {
+      const conflict = conflicts.find((c) => c.id === iso);
+      if (!conflict) continue;
+
+      if (regionFilter !== "ALL" && conflict.region !== regionFilter) continue;
+      if (typeFilter !== "ALL" && conflict.type !== typeFilter) continue;
+      if (severityFilter !== "ALL" && conflict.severity !== severityFilter) continue;
+      if (query && !conflict.name.toLowerCase().includes(query)) continue;
+
+      filtered[iso] = severity;
+    }
+    return filtered;
+  }, [severityData, conflicts, regionFilter, typeFilter, severityFilter, searchQuery]);
+
   useEffect(() => {
     fetch(assetPath("/data/conflicts.json"))
       .then((r) => r.json())
       .then(setConflicts)
+      .catch(() => { });
+
+    fetch(assetPath("/data/severity.json"))
+      .then((r) => r.json())
+      .then(setSeverityData)
       .catch(() => { });
   }, []);
 
@@ -105,7 +136,55 @@ export default function Home() {
         <div
           className={`transition-all duration-500 ${selectedConflict ? "w-1/2" : "w-full"} relative border-r border-[var(--color-border-subtle)] h-full`}
         >
-          <WorldMap onCountryClick={handleCountryClick} />
+          {/* Filter Bar HUD */}
+          <div className="absolute top-4 right-4 flex flex-col gap-2 z-10 w-64">
+            <input
+              type="text"
+              placeholder="SEARCH CONFLICTS..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full bg-[var(--color-bg-secondary)] border border-[var(--color-border-subtle)] px-3 py-2 text-xs font-mono text-[var(--color-text-primary)] focus:outline-none focus:border-[var(--color-accent-amber)] transition-colors"
+            />
+            <div className="flex gap-2">
+              <select
+                value={regionFilter}
+                onChange={(e) => setRegionFilter(e.target.value)}
+                className="flex-1 bg-[var(--color-bg-secondary)] border border-[var(--color-border-subtle)] px-2 py-1.5 text-[10px] font-mono text-[var(--color-text-primary)] focus:outline-none focus:border-[var(--color-accent-amber)] appearance-none"
+              >
+                <option value="ALL">ALL REGIONS</option>
+                <option value="Africa">AFRICA</option>
+                <option value="Middle East">MIDDLE EAST</option>
+                <option value="Asia">ASIA</option>
+                <option value="Europe">EUROPE</option>
+                <option value="Americas">AMERICAS</option>
+              </select>
+              <select
+                value={severityFilter}
+                onChange={(e) => setSeverityFilter(e.target.value === "ALL" ? "ALL" : Number(e.target.value))}
+                className="flex-1 bg-[var(--color-bg-secondary)] border border-[var(--color-border-subtle)] px-2 py-1.5 text-[10px] font-mono text-[var(--color-text-primary)] focus:outline-none focus:border-[var(--color-accent-amber)] appearance-none"
+              >
+                <option value="ALL">ALL SEVERITY</option>
+                <option value="5">LVL 5: CRISIS</option>
+                <option value="4">LVL 4: ACTIVE</option>
+                <option value="3">LVL 3: ESCALATION</option>
+                <option value="2">LVL 2: TENSIONS</option>
+                <option value="1">LVL 1: UNSTABLE</option>
+              </select>
+            </div>
+            <select
+              value={typeFilter}
+              onChange={(e) => setTypeFilter(e.target.value)}
+              className="w-full bg-[var(--color-bg-secondary)] border border-[var(--color-border-subtle)] px-2 py-1.5 text-[10px] font-mono text-[var(--color-text-primary)] focus:outline-none focus:border-[var(--color-accent-amber)] appearance-none"
+            >
+              <option value="ALL">ALL CONFLICT TYPES</option>
+              <option value="Armed Conflict">ARMED CONFLICT</option>
+              <option value="Political Violence">POLITICAL VIOLENCE</option>
+              <option value="Protests/Riots">PROTESTS/RIOTS</option>
+              <option value="Insurgency">INSURGENCY</option>
+            </select>
+          </div>
+
+          <WorldMap onCountryClick={handleCountryClick} severityData={filteredSeverityData} />
         </div>
 
         {/* Conflict Dossier Panel */}

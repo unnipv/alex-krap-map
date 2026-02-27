@@ -15,28 +15,22 @@ const severityColors: Record<number, string> = {
 };
 
 interface WorldMapProps {
-    onCountryClick?: (iso: string, countryName: string) => void;
+    onCountryClick: (iso: string) => void;
+    severityData: Record<string, number>;
 }
 
-export default function WorldMap({ onCountryClick }: WorldMapProps) {
+export default function WorldMap({ onCountryClick, severityData }: WorldMapProps) {
     const mapContainer = useRef<HTMLDivElement>(null);
     const map = useRef<maplibregl.Map | null>(null);
     const [activeCountry, setActiveCountry] = useState<string | null>(null);
-    const [severityData, setSeverityData] = useState<Record<string, number>>({});
-    const severityDataRef = useRef<Record<string, number>>({});
+    const severityDataRef = useRef<Record<string, number>>(severityData);
     const mapReady = useRef(false);
 
-    // Load severity data from pipeline output
+    // Keep ref in sync with prop for the map.on("load") callback
     useEffect(() => {
-        fetch(assetPath("/data/severity.json"))
-            .then((r) => r.json())
-            .then((data) => {
-                severityDataRef.current = data;
-                setSeverityData(data);
-                applyColors();
-            })
-            .catch(() => console.warn("No severity data found, using empty map"));
-    }, []);
+        severityDataRef.current = severityData;
+        applyColors();
+    }, [severityData]);
 
     // Build the match expression for choropleth coloring
     function buildColorExpr(data: Record<string, number>): any {
@@ -200,7 +194,7 @@ export default function WorldMap({ onCountryClick }: WorldMapProps) {
                         essential: true,
                     });
                     setActiveCountry(iso);
-                    onCountryClick?.(iso, name);
+                    onCountryClick(iso);
                 }
             });
         });
@@ -212,10 +206,8 @@ export default function WorldMap({ onCountryClick }: WorldMapProps) {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 
-    // Update choropleth colors when severity data changes
-    useEffect(() => {
-        applyColors();
-    }, [severityData]);
+    // Color application is handled by the useEffect above that watches severityData
+
 
     const resetView = () => {
         map.current?.flyTo({ center: [10, 25], zoom: 1.8, duration: 1500 });
